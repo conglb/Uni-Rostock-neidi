@@ -18,7 +18,7 @@ for i, filename in enumerate(filenames):
     start_time = pd.Timestamp('2023-01-01 00:00:00')
     df['time:timestamp'] = [start_time + timedelta(seconds=0.5 * i) for i in range(len(df))]
 
-    # Filter out empty events with no true activity
+    # just keep the first occurence of each activity
     df = df.where(df['concept:name'].shift(periods=1) != df['concept:name']).dropna()
 
     event_log = pm4py.format_dataframe(df, case_id='case:concept:name', activity_key='concept:name', timestamp_key='time:timestamp')
