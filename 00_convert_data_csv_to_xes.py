@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import timedelta
 import pm4py
 
-filenames = [f'S{num:02d}_Activity.csv' for num in range(1,2)]
+filenames = [f'S{num:02d}_Activity.csv' for num in range(13,14)]
 dirname = './data/03_Activity/'
 output_dirname='./preprocessed_data/03_Activity/'
 

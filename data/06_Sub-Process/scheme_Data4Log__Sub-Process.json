@@ -26,7 +26,7 @@
     [
         "Picking/Storing",
         [
-            "Remove item from the cart",
+            "Remove cardboard box/item from the cart",
             "Move to next position",
             "Placing items on a rack",
             "Retrieval of items",
@@ -43,7 +43,7 @@
             "Sorting",
             "Fill cardboard box with filling material",
             "Print shipping label and return slip",
-            "Add return label",
+            "Prepare/add return label",
             "Attach shipping label",
             "Remove elastic band",
             "Seal cardboard box",
