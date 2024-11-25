@@ -1,7 +1,9 @@
 import pandas as pd
 from datetime import timedelta
 import pm4py
+import os
 
+xes_file_path = os.getenv('XES_FILE_PATH')
 filenames = [f'S{num:02d}_Activity.csv' for num in range(13,14)]
 dirname = './data/03_Activity/'
 output_dirname='./preprocessed_data/03_Activity/'
@@ -22,5 +24,4 @@ for i, filename in enumerate(filenames):
     df = df.where(df['concept:name'].shift(periods=1) != df['concept:name']).dropna()
 
     event_log = pm4py.format_dataframe(df, case_id='case:concept:name', activity_key='concept:name', timestamp_key='time:timestamp')
-    xes_path = output_dirname + filename + '.xes'
-    pm4py.write_xes(event_log, xes_path)
+    pm4py.write_xes(event_log, xes_file_path)

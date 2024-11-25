@@ -19,9 +19,7 @@ import os
 
 # arr2 = arr[:3]
 
-path = "/Users/macbookpro/Projects/Uni-Rostock-neidi/preprocessed_data/03_Activity/S01_Activity.csv.xes"
-# path = "BPIC15_1f.xes"
-file_path = os.path.join(os.path.join(os.path.dirname(__file__), "tests"), path)
+file_path = os.getenv('XES_FILE_PATH')
 log = pm4py.read.read_xes(file_path)
 
 process_tree = heuristic_miner.apply(log)

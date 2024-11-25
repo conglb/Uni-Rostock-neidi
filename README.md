@@ -39,6 +39,10 @@ In the future, it could be interesting to find the optimal characteristics of ge
 ## Running
 
 ```
+bash ./run.sh
+```
+
+```
 python 00_convert_data_csv_to_xes.py
 python initial_miner.py
 python output.py
