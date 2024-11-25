@@ -19,7 +19,7 @@ import os
 
 # arr2 = arr[:3]
 
-path = "/Users/macbookpro/Projects/Uni-Rostock-neidi/preprocessed_data/03_Activity/S01_Activity.csv.xes"
+path = "C://Users//baumt//Desktop//HA//11WS24//AI//Uni-Rostock-neidi//preprocessed_data//03_Activity//S01_merged.csv.xes"
 # path = "BPIC15_1f.xes"
 file_path = os.path.join(os.path.join(os.path.dirname(__file__), "tests"), path)
 log = pm4py.read.read_xes(file_path)

@@ -2,15 +2,15 @@ import pandas as pd
 from datetime import timedelta
 import pm4py
 
-filenames = [f'S{num:02d}_Activity.csv' for num in range(1,2)]
-dirname = './data/03_Activity/'
-output_dirname='./preprocessed_data/03_Activity/'
+filenames = [f'S{num:02d}_merged.csv' for num in range(1,2)]
+dirname = 'data//merged//'
+output_dirname='preprocessed_data//03_Activity//'
 
 
 for i, filename in enumerate(filenames):
     file_path = dirname + filename
     df = pd.read_csv(file_path)
-    df = df.apply(lambda row: row[row == 1].index[0], axis=1)
+    df = df.apply(lambda row: ', '.join(row[row == 1].index), axis=1)
     df = df.to_frame(name='concept:name')
     df['case:concept:name'] = f'Case_{i}'  # Assuming single case ID, can be customized
 
