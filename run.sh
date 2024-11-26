@@ -1,5 +1,6 @@
 #!bin/bash
 
+export SUBJECT_NUM="02"
 export XES_FILE_PATH='./preprocessed_data/08_Activity+Location/S01.xes'
 export RESULT_IMG_PATH='./results/petri_net_visualization_S01_ACTIVITY+LOCATION_STORAGE.png'
 
