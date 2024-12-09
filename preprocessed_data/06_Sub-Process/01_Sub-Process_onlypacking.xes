@@ -1,0 +1,1980 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="Case_1" />
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="1" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item on a table, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:00:00+00:00" />
+			<int key="@@index" value="0" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="1" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Print shipping label and return slip, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:04:16.500000+00:00" />
+			<int key="@@index" value="1" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="1" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Sorting, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:09:05.500000+00:00" />
+			<int key="@@index" value="2" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="1" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Fill cardboard box with filling material, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:18:14+00:00" />
+			<int key="@@index" value="3" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="1" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Remove elastic band, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:20:07.500000+00:00" />
+			<int key="@@index" value="4" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="1" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Print shipping label and return slip, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:21:27.500000+00:00" />
+			<int key="@@index" value="5" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="1" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Prepare/add return label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:25:05+00:00" />
+			<int key="@@index" value="6" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="1" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Seal cardboard box, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:25:29+00:00" />
+			<int key="@@index" value="7" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="1" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Attach shipping label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:28:52.500000+00:00" />
+			<int key="@@index" value="8" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="1" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Prepare/add return label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:32:34.500000+00:00" />
+			<int key="@@index" value="9" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="1" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Seal cardboard box, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:34:31+00:00" />
+			<int key="@@index" value="10" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="1" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Attach shipping label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:37:50+00:00" />
+			<int key="@@index" value="11" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="1" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item in a cart.1, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:40:46+00:00" />
+			<int key="@@index" value="12" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="1" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item on a table, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:45:46.500000+00:00" />
+			<int key="@@index" value="13" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="1" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Remove elastic band, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:59:25.500000+00:00" />
+			<int key="@@index" value="14" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="1" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Sorting, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T00:59:55+00:00" />
+			<int key="@@index" value="15" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="1" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item in a cart.1, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:04:38+00:00" />
+			<int key="@@index" value="16" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="1" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Print shipping label and return slip, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:05:40+00:00" />
+			<int key="@@index" value="17" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="1" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Remove elastic band, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:11:06+00:00" />
+			<int key="@@index" value="18" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="1" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Print shipping label and return slip, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:13:42+00:00" />
+			<int key="@@index" value="19" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="1" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Seal cardboard box, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:16:52+00:00" />
+			<int key="@@index" value="20" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="1" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Attach shipping label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:20:08.500000+00:00" />
+			<int key="@@index" value="21" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="1" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Print shipping label and return slip, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:22:55.500000+00:00" />
+			<int key="@@index" value="22" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="1" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Prepare/add return label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:24:56.500000+00:00" />
+			<int key="@@index" value="23" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="1" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Seal cardboard box, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:25:17+00:00" />
+			<int key="@@index" value="24" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="1" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Attach shipping label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:28:34.500000+00:00" />
+			<int key="@@index" value="25" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="1" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item in a cart.1, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:31:34+00:00" />
+			<int key="@@index" value="26" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="1" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Print shipping label and return slip, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:35:35.500000+00:00" />
+			<int key="@@index" value="27" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="1" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item on a table, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:39:47.500000+00:00" />
+			<int key="@@index" value="28" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="1" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Sorting, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:43:01.500000+00:00" />
+			<int key="@@index" value="29" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="1" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item in a cart.1, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:51:21+00:00" />
+			<int key="@@index" value="30" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="1" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Fill cardboard box with filling material, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:52:05.500000+00:00" />
+			<int key="@@index" value="31" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="1" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Remove elastic band, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:55:02.500000+00:00" />
+			<int key="@@index" value="32" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="1" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Seal cardboard box, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:56:00+00:00" />
+			<int key="@@index" value="33" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="1" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Print shipping label and return slip, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:56:34.500000+00:00" />
+			<int key="@@index" value="34" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="1" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Prepare/add return label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:58:53.500000+00:00" />
+			<int key="@@index" value="35" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="1" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Seal cardboard box, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T01:59:17.500000+00:00" />
+			<int key="@@index" value="36" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="1" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Attach shipping label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:02:12+00:00" />
+			<int key="@@index" value="37" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="1" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item in a cart.1, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:05:09+00:00" />
+			<int key="@@index" value="38" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="1" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Print shipping label and return slip, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:06:07.500000+00:00" />
+			<int key="@@index" value="39" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="1" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item on a table, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:13:34.500000+00:00" />
+			<int key="@@index" value="40" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="1" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Sorting, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:15:37+00:00" />
+			<int key="@@index" value="41" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="1" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Print shipping label and return slip, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:17:06.500000+00:00" />
+			<int key="@@index" value="42" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="1" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Sorting, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:17:31.500000+00:00" />
+			<int key="@@index" value="43" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="1" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Fill cardboard box with filling material, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:23:23+00:00" />
+			<int key="@@index" value="44" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="1" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item on a table, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:25:56+00:00" />
+			<int key="@@index" value="45" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="1" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Sorting, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:27:15+00:00" />
+			<int key="@@index" value="46" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="1" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Prepare/add return label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:31:21.500000+00:00" />
+			<int key="@@index" value="47" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="1" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Fill cardboard box with filling material, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:34:06.500000+00:00" />
+			<int key="@@index" value="48" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="1" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Prepare/add return label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:36:42.500000+00:00" />
+			<int key="@@index" value="49" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="1" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Remove elastic band, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:39:13+00:00" />
+			<int key="@@index" value="50" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="1" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Seal cardboard box, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:39:48+00:00" />
+			<int key="@@index" value="51" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="1" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Attach shipping label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:43:37.500000+00:00" />
+			<int key="@@index" value="52" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="1" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Remove elastic band, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:45:53.500000+00:00" />
+			<int key="@@index" value="53" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="1" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Seal cardboard box, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:47:23+00:00" />
+			<int key="@@index" value="54" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="1" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Attach shipping label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:51:28.500000+00:00" />
+			<int key="@@index" value="55" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="1" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item in a cart.1, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:54:20.500000+00:00" />
+			<int key="@@index" value="56" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="1" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item on a table, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:56:03+00:00" />
+			<int key="@@index" value="57" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="1" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Attach shipping label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:56:52+00:00" />
+			<int key="@@index" value="58" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="1" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item on a table, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:57:16.500000+00:00" />
+			<int key="@@index" value="59" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="1" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Sorting, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T02:59:44+00:00" />
+			<int key="@@index" value="60" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="1" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Prepare/add return label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T03:11:47+00:00" />
+			<int key="@@index" value="61" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="1" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Fill cardboard box with filling material, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T03:14:42+00:00" />
+			<int key="@@index" value="62" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="1" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Prepare/add return label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T03:16:38+00:00" />
+			<int key="@@index" value="63" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="1" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Remove elastic band, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T03:17:13.500000+00:00" />
+			<int key="@@index" value="64" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="1" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Seal cardboard box, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T03:17:52.500000+00:00" />
+			<int key="@@index" value="65" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="1" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Attach shipping label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T03:20:30+00:00" />
+			<int key="@@index" value="66" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="1" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Fill cardboard box with filling material, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T03:23:48.500000+00:00" />
+			<int key="@@index" value="67" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="1" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Prepare/add return label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T03:26:16.500000+00:00" />
+			<int key="@@index" value="68" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="1" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Remove elastic band, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T03:28:05.500000+00:00" />
+			<int key="@@index" value="69" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="1" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Attach shipping label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T03:28:54.500000+00:00" />
+			<int key="@@index" value="70" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="0" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="1" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Place cardboard box/item in a cart.1, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T03:34:10+00:00" />
+			<int key="@@index" value="71" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="Packing" value="1" />
+			<int key="Remove cardboard box/item from the cart" value="0" />
+			<int key="Move to next position" value="0" />
+			<int key="Placing items on a rack" value="0" />
+			<int key="Retrieval of items" value="0" />
+			<int key="Move to a cart" value="0" />
+			<int key="Place cardboard box/item in a cart" value="0" />
+			<int key="Place cardboard box/item on a table" value="0" />
+			<int key="Open cardboard box" value="0" />
+			<int key="Disposal of filling material or shipping label" value="0" />
+			<int key="Sorting" value="0" />
+			<int key="Fill cardboard box with filling material" value="0" />
+			<int key="Print shipping label and return slip" value="0" />
+			<int key="Prepare/add return label" value="0" />
+			<int key="Attach shipping label" value="1" />
+			<int key="Remove elastic band" value="0" />
+			<int key="Seal cardboard box" value="0" />
+			<int key="Place cardboard box/item in a cart.1" value="0" />
+			<int key="Tie elastic band around cardboard" value="0" />
+			<int key="Retrieval" value="1" />
+			<int key="Storage" value="0" />
+			<string key="concept:name" value="Packing, Attach shipping label, Retrieval" />
+			<date key="time:timestamp" value="2023-01-01T03:37:19.500000+00:00" />
+			<int key="@@index" value="72" />
+			<int key="@@case_index" value="0" />
+		</event>
+	</trace>
+</log>
