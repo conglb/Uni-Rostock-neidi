@@ -25,7 +25,7 @@ def filter_csv(input_file, output_file, column_name):
             print(f"Filtered CSV saved to {output_file}.")
 
 # Usage
-input_file = 'data//06_Sub-Process//S01_Sub-Process_modified.csv'   # Path to the input CSV
+input_file = 'data//06_Sub-Process//S01_Sub-Process.csv'   # Path to the input CSV
 output_file = 'data//06_Sub-Process//S01_Sub-Process_onlypacking.csv' # Path to save the filtered CSV
 column_name = 'Packing' # Replace with the column name you want to filter
 

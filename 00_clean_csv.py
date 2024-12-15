@@ -37,20 +37,40 @@ def delete_columns_and_zero_rows_from_csv(input_csv, columns_to_delete):
 # Example usage
 if __name__ == "__main__":
     input_csv = "data//06_Sub-Process//S01_Sub-Process_onlypacking.csv"  # Path to the input CSV
+    # First try with only subprocess and activity
     # row_names_to_delete = ["Waiting", "Transition", "ANOTHER SUB-PROCESS",
     # "SUB-PROCESS UNKNOWN", "ANOTHER MAIN-PROCESS", "MAIN-PROCESS UNKNOWN", "Office", "Packing/sorting area", "Issuing/receiving area",
     #  "Cart area", "Cardboard box area", "Base", "Path", "Cross aisle path", "Aisle path", "ANOTHER LOCATION", "LOCATION UNKNOWN",   "Synchronization",
     # "Tick off / confirm",    "Scan",    "Pull",    "Push",    "Handling upwards",    "Handling centred",    "Handling downwards",    "Walking",    "Standing",
     # "Sitting",    "ANOTHER ACTIVITY",    "ACTIVITY UNKNOWN"]  # List of row names to delete
 
-    row_names_to_delete = ["Collecting order and hardware", "Collecting cart","Collecting empty cardboard boxes", "Collecting packed cardboard boxes",
-    "Transport a cart to the base", "Picking","Transport to the packing/sorting area", "Unpacking",
-    "Storing", "Handing over packed cardboard boxes","Returning empty cardboard boxes", "Returning cart","Returning hardware",
-     "Report and clarify the incident","Waiting", "Transition", "ANOTHER SUB-PROCESS",
-    "SUB-PROCESS UNKNOWN", "ANOTHER MAIN-PROCESS", "MAIN-PROCESS UNKNOWN", "Office", "Packing/sorting area", "Issuing/receiving area",
-     "Cart area", "Cardboard box area", "Base", "Path", "Cross aisle path", "Aisle path", "ANOTHER LOCATION", "LOCATION UNKNOWN",   "Synchronization",
-    "Tick off / confirm",    "Scan",    "Pull",    "Push",    "Handling upwards",    "Handling centred",    "Handling downwards",    "Walking",    "Standing",
-    "Sitting",    "ANOTHER ACTIVITY",    "ACTIVITY UNKNOWN"]  # List of row names to delete
+    # # Second try with only packing + activity
+    # row_names_to_delete = ["Collecting order and hardware", "Collecting cart","Collecting empty cardboard boxes", "Collecting packed cardboard boxes",
+    # "Transport a cart to the base", "Picking","Transport to the packing/sorting area", "Unpacking",
+    # "Storing", "Handing over packed cardboard boxes","Returning empty cardboard boxes", "Returning cart","Returning hardware",
+    #  "Report and clarify the incident","Waiting", "Transition", "ANOTHER SUB-PROCESS",
+    # "SUB-PROCESS UNKNOWN", "ANOTHER MAIN-PROCESS", "MAIN-PROCESS UNKNOWN", "Office", "Packing/sorting area", "Issuing/receiving area",
+    #  "Cart area", "Cardboard box area", "Base", "Path", "Cross aisle path", "Aisle path", "ANOTHER LOCATION", "LOCATION UNKNOWN",   "Synchronization",
+    # "Tick off / confirm",    "Scan",    "Pull",    "Push",    "Handling upwards",    "Handling centred",    "Handling downwards",    "Walking",    "Standing",
+    # "Sitting",    "ANOTHER ACTIVITY",    "ACTIVITY UNKNOWN"]  # List of row names to delete
+
+    # Third try with only packing + activity
+    row_names_to_delete = [
+    "Collecting order and hardware", "Collecting cart", "Collecting empty cardboard boxes",
+    "Collecting packed cardboard boxes", "Transport a cart to the base", "Picking",
+    "Transport to the packing/sorting area","Place cardboard box/item in a cart.1", "Unpacking", "Storing",
+    "Handing over packed cardboard boxes", "Returning empty cardboard boxes", "Returning cart",
+    "Returning hardware", "Waiting", "Report and clarify the incident", "Transition",
+    "ANOTHER SUB-PROCESS", "SUB-PROCESS UNKNOWN", "Remove cardboard box/item from the cart",
+    "Move to next position", "Placing items on a rack", "Retrieval of items", "Move to a cart",
+    "Place cardboard box/item in a cart", "Place cardboard box/item on a table",
+    "Open cardboard box", "Disposal of filling material or shipping label", "Sorting",
+    "Fill cardboard box with filling material", "Print shipping label and return slip",
+    "Prepare/add return label", "Attach shipping label", "Remove elastic band",
+    "Seal cardboard box", "Place cardboard box/item in a cart", "Tie elastic band around cardboard",
+    "Retrieval", "Storage", "ANOTHER MAIN-PROCESS", "MAIN-PROCESS UNKNOWN", "ANOTHER LOCATION", "LOCATION UNKNOWN",
+    "ANOTHER ACTIVITY", "ACTIVITY UNKNOWN"
+]
     
     delete_columns_and_zero_rows_from_csv(input_csv, row_names_to_delete)
 
