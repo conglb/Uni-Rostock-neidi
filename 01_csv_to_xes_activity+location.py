@@ -3,9 +3,9 @@ from datetime import timedelta
 import pm4py
 import os
 
-filenames3 = [f'S{num:02d}_Activity.csv' for num in range(1,2)]
-filenames2 = [f'S{num:02d}_Location.csv' for num in range(1,2)]
-filenames1 = [f'S{num:02d}_Main-Process.csv' for num in range(1,2)]
+filenames3 = [f'S{num:02d}_Activity.csv' for num in range(9,10)]
+filenames2 = [f'S{num:02d}_Location.csv' for num in range(9,10)]
+filenames1 = [f'S{num:02d}_Main-Process.csv' for num in range(9,10)]
 dirname3 = './data/03_Activity/'
 dirname2 = './data/02_Location/'
 dirname1 = './data/01_Main-Process+Order+Information_Technology/'
@@ -32,6 +32,8 @@ for i in range(len(filenames3)):
     # Handle Location
     df2 = df2.apply(lambda row: ';'.join(row[row == 1].index)  , axis=1)
     df2 = df2.to_frame(name='location')
+    df22 = pd.read_csv(file_path2)
+    df2['location0'] = df22.apply(lambda row: row[row == 1].index[0] , axis=1)
 
 
     df = pd.concat([df1, df2, df3], axis=1)
@@ -44,7 +46,13 @@ for i in range(len(filenames3)):
 
     # just keep the first occurence of each activity
     df = df.where(df['concept:name'].shift(periods=1) != df['concept:name']).dropna()
-    df = df[df.isStorage == True]
+    # drop activiy, merge activity
+    df = df[df.isRetrieval == True]
+    df = df[df.location0.isin(["Cross aisle path", "Aisle path", 'Base'])]
+    df = df.drop(   df[df['activity'] == 'Standing'].index    )
+    df = df.drop(   df[df['activity'] == 'Synchronization'].index   )
+    df = df.drop(   df[df['activity'] == 'ACTIVITY UNKNOWN'].index   )
+    df = df.drop(   df[df['activity'] == 'ANOTHER ACTIVITY'].index   )
 
     event_log = pm4py.format_dataframe(df, case_id='case:concept:name', activity_key='concept:name', timestamp_key='time:timestamp')
     pm4py.write_xes(event_log, os.getenv('XES_FILE_PATH'))
