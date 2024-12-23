@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1734880049.966659" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1734880049.966659</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <transition id="e4bb18e4-9ee8-4687-9622-bfc9da242d2e">
+        <name>
+          <text>Walking</text>
+        </name>
+      </transition>
+      <transition id="f9027148-6bd6-4e9f-a798-a3e35636d0ba">
+        <name>
+          <text>Handling centred</text>
+        </name>
+      </transition>
+      <arc id="140338741487600" source="source" target="e4bb18e4-9ee8-4687-9622-bfc9da242d2e"/>
+      <arc id="140338741488664" source="p_3" target="f9027148-6bd6-4e9f-a798-a3e35636d0ba"/>
+      <arc id="140338741487768" source="e4bb18e4-9ee8-4687-9622-bfc9da242d2e" target="p_3"/>
+      <arc id="140338741488328" source="f9027148-6bd6-4e9f-a798-a3e35636d0ba" target="sink"/>
+    </page>
+  </net>
+</pnml>
