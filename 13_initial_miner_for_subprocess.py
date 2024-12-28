@@ -24,7 +24,6 @@ filenames = os.listdir(dirname)
 
 for i, filename in enumerate(filenames):
     file_path = dirname + filename
-    print(file_path)
     log = pm4py.read.read_xes(file_path)
 
     process_tree = heuristic_miner.apply(log)
