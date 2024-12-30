@@ -29,15 +29,15 @@ def filter_csv_by_columns(input_file, output_folder, columns):
                 print(f"Filtered CSV for column '{column_name}' saved to {output_file}.")
 
 # Usage
-input_file = 'data/06_Sub-Process/S01_Sub-Process.csv'  # Path to the input CSV
-output_folder = 'data/06_Sub-Process copy'  # Folder to save the filtered CSV files
+input_file = 'data/06_Sub-Process/S07_Sub-Process.csv'  # Path to the input CSV
+output_folder = 'data/06_Sub-Process_filtered'  # Folder to save the filtered CSV files
 columns = [    "Collecting order and hardware",
     "Collecting cart",
     "Collecting empty cardboard boxes",
     "Collecting packed cardboard boxes",
     "Transport a cart to the base",
     "Picking",
-    #"Transport to the packing/sorting area",
+    "Transport to the packing+sorting area",
     "Unpacking",
     "Packing",
     "Storing",

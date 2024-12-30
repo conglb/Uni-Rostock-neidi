@@ -1,26 +1,34 @@
 import pandas as pd
 from datetime import timedelta
 import pm4py
+import os
 
-filenames = [f'S{num:02d}_merged.csv' for num in range(1,2)]
-dirname = 'data//merged//'
-output_dirname='preprocessed_data//03_Activity//'
+# Input and output directories
+dirname = 'data//06_Sub-Process_filtered+cleaned//'
+output_dirname = 'preprocessed_data//06_Sub-Process//'
 
+# Ensure the output directory exists
+os.makedirs(output_dirname, exist_ok=True)
 
-for i, filename in enumerate(filenames):
-    file_path = dirname + filename
-    df = pd.read_csv(file_path)
-    df = df.apply(lambda row: ', '.join(row[row == 1].index), axis=1)
-    df = df.to_frame(name='concept:name')
-    df['case:concept:name'] = f'Case_{i}'  # Assuming single case ID, can be customized
+# Process all CSV files in the input directory
+for i, filename in enumerate(os.listdir(dirname)):
+    if filename.endswith('.csv'):
+        file_path = os.path.join(dirname, filename)
+        df = pd.read_csv(file_path)
+        
+        # Transform the DataFrame
+        df = df.apply(lambda row: ', '.join(row[row == 1].index), axis=1)
+        df = df.to_frame(name='concept:name')
+        df['case:concept:name'] = f'Case_{i}'  # Assuming single case ID, can be customized
 
-    # add timestamp column
-    start_time = pd.Timestamp('2023-01-01 00:00:00')
-    df['time:timestamp'] = [start_time + timedelta(seconds=0.5 * i) for i in range(len(df))]
+        # Add timestamp column
+        start_time = pd.Timestamp('2023-01-01 00:00:00')
+        df['time:timestamp'] = [start_time + timedelta(seconds=0.5 * j) for j in range(len(df))]
 
-    # just keep the first occurence of each activity
-    df = df.where(df['concept:name'].shift(periods=1) != df['concept:name']).dropna()
+        # Keep only the first occurrence of each activity
+        df = df.where(df['concept:name'].shift(periods=1) != df['concept:name']).dropna()
 
-    event_log = pm4py.format_dataframe(df, case_id='case:concept:name', activity_key='concept:name', timestamp_key='time:timestamp')
-    xes_path = output_dirname + filename + '.xes'
-    pm4py.write_xes(event_log, xes_path)
+        # Format DataFrame for PM4Py and write to XES
+        event_log = pm4py.format_dataframe(df, case_id='case:concept:name', activity_key='concept:name', timestamp_key='time:timestamp')
+        xes_path = os.path.join(output_dirname, filename + '.xes')
+        pm4py.write_xes(event_log, xes_path)
