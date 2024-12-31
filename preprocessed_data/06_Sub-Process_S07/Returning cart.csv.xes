@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+<?xml version='1.0' encoding='utf-8'?>
+<log xes.version="1849-2016" xes.features="nested-attributes">
 	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
 	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
 	<string key="origin" value="csv" />
 	<trace>
 		<string key="concept:name" value="Case_8" />
 		<event>
-			<string key="concept:name" value="Returning cart, Path, Pull" />
+			<string key="concept:name" value="Returning cart" />
 			<date key="time:timestamp" value="2023-01-01T00:00:00+00:00" />
 			<int key="@@index" value="0" />
 			<int key="@@case_index" value="0" />
-		</event>
+		<string key="location" value="Path" /><string key="activity" value="Pull" /></event>
 		<event>
-			<string key="concept:name" value="Returning cart, Cart area, Pull" />
+			<string key="concept:name" value="Returning cart" />
 			<date key="time:timestamp" value="2023-01-01T00:01:43+00:00" />
 			<int key="@@index" value="1" />
 			<int key="@@case_index" value="0" />
-		</event>
+		<string key="location" value="Cart area" /><string key="activity" value="Pull" /></event>
 		<event>
-			<string key="concept:name" value="Returning cart, Cart area, Push" />
+			<string key="concept:name" value="Returning cart" />
 			<date key="time:timestamp" value="2023-01-01T00:03:11+00:00" />
 			<int key="@@index" value="2" />
 			<int key="@@case_index" value="0" />
-		</event>
+		<string key="location" value="Cart area" /><string key="activity" value="Push" /></event>
 		<event>
-			<string key="concept:name" value="Returning cart, Cart area, Handling centred" />
+			<string key="concept:name" value="Returning cart" />
 			<date key="time:timestamp" value="2023-01-01T00:04:02.500000+00:00" />
 			<int key="@@index" value="3" />
 			<int key="@@case_index" value="0" />
-		</event>
+		<string key="location" value="Cart area" /><string key="activity" value="Handling centred" /></event>
 	</trace>
 </log>
