@@ -6,28 +6,28 @@
 	<trace>
 		<string key="concept:name" value="Case_8" />
 		<event>
-			<string key="concept:name" value="Returning cart" />
+			<string key="concept:name" value="Pull" />
 			<date key="time:timestamp" value="2023-01-01T00:00:00+00:00" />
 			<int key="@@index" value="0" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Path" /><string key="activity" value="Pull" /></event>
+		<string key="location" value="Path" /><string key="subprocess" value="Returning cart" /></event>
 		<event>
-			<string key="concept:name" value="Returning cart" />
+			<string key="concept:name" value="Pull" />
 			<date key="time:timestamp" value="2023-01-01T00:01:43+00:00" />
 			<int key="@@index" value="1" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Cart area" /><string key="activity" value="Pull" /></event>
+		<string key="location" value="Cart area" /><string key="subprocess" value="Returning cart" /></event>
 		<event>
-			<string key="concept:name" value="Returning cart" />
+			<string key="concept:name" value="Push" />
 			<date key="time:timestamp" value="2023-01-01T00:03:11+00:00" />
 			<int key="@@index" value="2" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Cart area" /><string key="activity" value="Push" /></event>
+		<string key="location" value="Cart area" /><string key="subprocess" value="Returning cart" /></event>
 		<event>
-			<string key="concept:name" value="Returning cart" />
+			<string key="concept:name" value="Handling centred" />
 			<date key="time:timestamp" value="2023-01-01T00:04:02.500000+00:00" />
 			<int key="@@index" value="3" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Cart area" /><string key="activity" value="Handling centred" /></event>
+		<string key="location" value="Cart area" /><string key="subprocess" value="Returning cart" /></event>
 	</trace>
 </log>
