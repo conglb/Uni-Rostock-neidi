@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pnml>
-  <net id="imdf_net_1734880050.097306" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+  <net id="imdf_net_1735646186.3621209" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
     <name>
-      <text>imdf_net_1734880050.097306</text>
+      <text>imdf_net_1735646186.3621209</text>
     </name>
     <page id="n0">
       <place id="source">
@@ -18,13 +18,13 @@
           <text>sink</text>
         </name>
       </place>
-      <transition id="1edffcf9-07fc-44a5-8dcc-5f5f140a33a0">
+      <transition id="cc849182-4015-4606-b190-575c2b5c6637">
         <name>
           <text>Push</text>
         </name>
       </transition>
-      <arc id="140338248558688" source="source" target="1edffcf9-07fc-44a5-8dcc-5f5f140a33a0"/>
-      <arc id="140338248560200" source="1edffcf9-07fc-44a5-8dcc-5f5f140a33a0" target="sink"/>
+      <arc id="140339944290288" source="source" target="cc849182-4015-4606-b190-575c2b5c6637"/>
+      <arc id="140339944290568" source="cc849182-4015-4606-b190-575c2b5c6637" target="sink"/>
     </page>
   </net>
 </pnml>
