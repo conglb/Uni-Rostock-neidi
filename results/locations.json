@@ -1,0 +1,83 @@
+{
+    "Waiting": [
+        "Path",
+        "Packing/sorting area",
+        "Office"
+    ],
+    "Unpacking": [
+        "Packing/sorting area",
+        "Place cardboard box/item in a cart.1"
+    ],
+    "Transport to the packing+sorting area": [
+        "Cross aisle path",
+        "Path",
+        "Packing/sorting area"
+    ],
+    "Transport a cart to the base": [
+        "Path",
+        "Cross aisle path"
+    ],
+    "Transition": [
+        "Office",
+        "Cross aisle path",
+        "Packing/sorting area",
+        "Path",
+        "Cardboard box area",
+        "Issuing/receiving area",
+        "Cart area"
+    ],
+    "Storing": [
+        "Cross aisle path",
+        "Aisle path",
+        "Base"
+    ],
+    "Returning hardware": [
+        "Path",
+        "Office"
+    ],
+    "Returning empty cardboard boxes": [
+        "Path",
+        "Cardboard box area"
+    ],
+    "Returning cart": [
+        "Path",
+        "Cart area"
+    ],
+    "Report and clarify the incident": [
+        "Aisle path",
+        "Cross aisle path",
+        "Path",
+        "Office",
+        "Packing/sorting area"
+    ],
+    "Picking": [
+        "Cross aisle path",
+        "Aisle path",
+        "Path",
+        "Base"
+    ],
+    "Packing": [
+        "Packing/sorting area",
+        "Add return label",
+        "Place cardboard box/item in a cart.1"
+    ],
+    "Handing over packed cardboard boxes": [
+        "Path",
+        "Issuing/receiving area"
+    ],
+    "Collecting packed cardboard boxes": [
+        "Path",
+        "Issuing/receiving area"
+    ],
+    "Collecting order and hardware": [
+        "Office"
+    ],
+    "Collecting empty cardboard boxes": [
+        "Path",
+        "Cardboard box area"
+    ],
+    "Collecting cart": [
+        "Path",
+        "Cart area"
+    ]
+}

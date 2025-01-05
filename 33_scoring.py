@@ -2,14 +2,6 @@ import pm4py
 from pm4py.objects.petri_net.importer import importer as pnml_importer
 from pm4py.algo.conformance import tokenreplay
 import os
-# Load Petri nets
-
-pnml_dir = './results/petrinet/06_Sub-Process_for_S1_splitted'
-pnml_files = os.listdir(pnml_dir)
-petrinets = [(file, pnml_importer.apply(os.path.join(pnml_dir,file))) for file in pnml_files]
-
-# Load event log
-log = pm4py.read.read_xes('./preprocessed_data/03_Activity/S01_Activity.csv.xes')
 
 def evaluate_conformance(petri_net):
     net, initial_marking, final_marking = petri_net
@@ -30,9 +22,35 @@ def evaluate_conformance(petri_net):
         if fitness > 0.7:
             fitness = 0.7 + (fitness-0.7)/5
     
-    #print(result)
     return fitness
 
-for name, petrinet in petrinets:
-    print(name)
-    print(evaluate_conformance(petrinet))
+
+# Load Petri nets
+
+pnml_dir = './results/petrinet/06_Sub-Process_for_S1_splitted/'
+pnml_files = os.listdir(pnml_dir)
+petrinets = [(file, pnml_importer.apply(os.path.join(pnml_dir,file))) for file in pnml_files]
+
+# Load event log
+log_dir = './tests/tests_subprocess/'
+log_files = []
+for root, _, files in os.walk(log_dir):
+    for f in files:
+        log_files.append(os.path.join(root, f))
+
+for log_file_path in log_files:
+    true_class = log_file_path.split('/')[-1].split('.')[0]
+    log = pm4py.read.read_xes(log_file_path)
+
+    max_fitness = 0
+    predicted_class = 'Transition'
+    for name, petrinet in petrinets:
+        petrinet_class = name.split('.')[0]
+        
+        tmp_fitness = evaluate_conformance(petrinet)
+        if tmp_fitness > max_fitness:
+            max_fitness = tmp_fitness
+            predicted_class = petrinet_class
+
+    print('True: ', true_class, "  Predicted: ", predicted_class)
+        
