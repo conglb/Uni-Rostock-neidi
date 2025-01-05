@@ -9,7 +9,7 @@ pnml_files = os.listdir(pnml_dir)
 petrinets = [(file, pnml_importer.apply(os.path.join(pnml_dir,file))) for file in pnml_files]
 
 # Load event log
-log = pm4py.read.read_xes('./preprocessed_data/06_Sub-Process_S01/Collecting packed cardboard boxes.csv.xes')
+log = pm4py.read.read_xes('./preprocessed_data/06_Sub-Process_for_S1_splitted/Collecting packed cardboard boxes.csv.xes')
 
 def evaluate_conformance(petri_net):
     net, initial_marking, final_marking = petri_net
@@ -21,12 +21,17 @@ def evaluate_conformance(petri_net):
     token_produced = result['produced_tokens'] 
     token_missing = result['missing_tokens'] 
     token_remaining = result['remaining_tokens'] 
-    if token_consumed + token_missing + token_remaining == 0:  # Avoid division by zero
-        return 0.0
-    fitness = (2 * token_consumed) / (2 * token_consumed + token_missing + token_remaining)
+    is_fit = result['trace_is_fit']
+    fitness = result['trace_fitness']
+    #if token_consumed + token_missing + token_remaining == 0:  # Avoid division by zero
+    #    return 0.0
+    #fitness = (2 * token_consumed) / (2 * token_consumed + token_missing + token_remaining)
+    if not is_fit:
+        if fitness > 0.7:
+            fitness = 0.7 + (fitness-0.7)/10
     
-    print(result)
-    return result['trace_fitness']
+    #print(result)
+    return fitness
 
 for name, petrinet in petrinets:
     print(name)
