@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pnml>
-  <net id="imdf_net_1734880049.966659" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+  <net id="imdf_net_1735646186.230658" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
     <name>
-      <text>imdf_net_1734880049.966659</text>
+      <text>imdf_net_1735646186.230658</text>
     </name>
     <page id="n0">
       <place id="source">
@@ -13,30 +13,30 @@
           <text>1</text>
         </initialMarking>
       </place>
-      <place id="sink">
-        <name>
-          <text>sink</text>
-        </name>
-      </place>
       <place id="p_3">
         <name>
           <text>p_3</text>
         </name>
       </place>
-      <transition id="e4bb18e4-9ee8-4687-9622-bfc9da242d2e">
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <transition id="23ef9470-a7be-46b2-a95a-0d37c2d4c709">
         <name>
           <text>Walking</text>
         </name>
       </transition>
-      <transition id="f9027148-6bd6-4e9f-a798-a3e35636d0ba">
+      <transition id="800d85be-b242-41da-b626-aa06f31373c8">
         <name>
           <text>Handling centred</text>
         </name>
       </transition>
-      <arc id="140338741487600" source="source" target="e4bb18e4-9ee8-4687-9622-bfc9da242d2e"/>
-      <arc id="140338741488664" source="p_3" target="f9027148-6bd6-4e9f-a798-a3e35636d0ba"/>
-      <arc id="140338741487768" source="e4bb18e4-9ee8-4687-9622-bfc9da242d2e" target="p_3"/>
-      <arc id="140338741488328" source="f9027148-6bd6-4e9f-a798-a3e35636d0ba" target="sink"/>
+      <arc id="140340481295808" source="source" target="23ef9470-a7be-46b2-a95a-0d37c2d4c709"/>
+      <arc id="140340481296704" source="800d85be-b242-41da-b626-aa06f31373c8" target="sink"/>
+      <arc id="140340481296480" source="p_3" target="800d85be-b242-41da-b626-aa06f31373c8"/>
+      <arc id="140340481295752" source="23ef9470-a7be-46b2-a95a-0d37c2d4c709" target="p_3"/>
     </page>
   </net>
 </pnml>

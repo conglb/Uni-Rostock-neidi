@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1735649442.340957" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1735649442.340957</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <transition id="508f5c1b-d6e2-4646-8389-bb02d254c83a">
+        <name>
+          <text>Walking</text>
+        </name>
+      </transition>
+      <transition id="75b73f15-c951-4e47-8d0a-e98608c7ce6c">
+        <name>
+          <text>Standing</text>
+        </name>
+      </transition>
+      <transition id="c23d040e-0b2d-443d-9b6a-3072cf9317a8">
+        <name>
+          <text>Pull</text>
+        </name>
+      </transition>
+      <transition id="45d1244b-9d35-4fe9-a8b0-f13905556673">
+        <name>
+          <text>Handling upwards</text>
+        </name>
+      </transition>
+      <transition id="40936a4f-fe4a-44d3-92ab-8d6c19a03572">
+        <name>
+          <text>Handling centred</text>
+        </name>
+      </transition>
+      <transition id="skip_4">
+        <name>
+          <text>skip_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ba8bff8b-b8dd-41d7-a35b-1eee335d6e5e"/>
+      </transition>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bff1daf1-a46d-415c-8038-795f66b6e60c"/>
+      </transition>
+      <arc id="140575362050592" source="c23d040e-0b2d-443d-9b6a-3072cf9317a8" target="sink"/>
+      <arc id="140575950789544" source="40936a4f-fe4a-44d3-92ab-8d6c19a03572" target="p_9"/>
+      <arc id="140575362032304" source="p_8" target="40936a4f-fe4a-44d3-92ab-8d6c19a03572"/>
+      <arc id="140575362213816" source="p_6" target="skip_4"/>
+      <arc id="140575362215608" source="source" target="tau_1"/>
+      <arc id="140575362050368" source="p_10" target="c23d040e-0b2d-443d-9b6a-3072cf9317a8"/>
+      <arc id="140575362211912" source="45d1244b-9d35-4fe9-a8b0-f13905556673" target="p_8"/>
+      <arc id="140575085445192" source="p_9" target="75b73f15-c951-4e47-8d0a-e98608c7ce6c"/>
+      <arc id="140575362052048" source="p_6" target="45d1244b-9d35-4fe9-a8b0-f13905556673"/>
+      <arc id="140575362215384" source="p_5" target="508f5c1b-d6e2-4646-8389-bb02d254c83a"/>
+      <arc id="140575362051936" source="skip_4" target="p_5"/>
+      <arc id="140575362214376" source="508f5c1b-d6e2-4646-8389-bb02d254c83a" target="p_6"/>
+      <arc id="140575362051824" source="tau_1" target="p_5"/>
+      <arc id="140575085447544" source="75b73f15-c951-4e47-8d0a-e98608c7ce6c" target="p_10"/>
+    </page>
+  </net>
+</pnml>

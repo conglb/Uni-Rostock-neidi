@@ -18,8 +18,9 @@ import sympy
 import os
 
 # arr2 = arr[:3]
-dirname = './preprocessed_data/06_Sub-Process_for_S1_splitted/'
-output_dirname='./results/petrinet/06_Sub-Process_for_S1_splitted/'
+dirname = './preprocessed_data/06_Sub-Process_S07/'
+output_dirname='./results/petrinet/06_Sub-Process_S07/'
+os.makedirs(output_dirname)
 filenames = os.listdir(dirname)
 
 for i, filename in enumerate(filenames):
