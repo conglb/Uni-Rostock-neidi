@@ -4,21 +4,29 @@ import pm4py
 import os
 
 # Input and output directories
-dirname = 'data//06_Sub-Process_filtered+cleaned//'
+dirname = 'data//06_Sub-Process_filtered//S15'
 output_dirname = 'preprocessed_data//06_Sub-Process//'
 
 # Ensure the output directory exists
 os.makedirs(output_dirname, exist_ok=True)
+
+# Define filtering list
+merge_list = ["Tick off // confirm","Scan","Pull","Push","Handling upwards","Handling centred","Handling downwards","Walking","Standing","Sitting"]  
 
 # Process all CSV files in the input directory
 for i, filename in enumerate(os.listdir(dirname)):
     if filename.endswith('.csv'):
         file_path = os.path.join(dirname, filename)
         df = pd.read_csv(file_path)
+
+        # Filter rows based on the activity list
+        df = df[df.columns.intersection(merge_list)]  # Keep only columns in merge_list
+
+        # Transform the DataFrame for merging
+        df['concept:name'] = df.apply(lambda row: ', '.join(row[row == 1].index), axis=1)
+        df = df[['concept:name']]
         
-        # Transform the DataFrame
-        df = df.apply(lambda row: ', '.join(row[row == 1].index), axis=1)
-        df = df.to_frame(name='concept:name')
+        # Assign case ID
         df['case:concept:name'] = f'Case_{i}'  # Assuming single case ID, can be customized
 
         # Add timestamp column
