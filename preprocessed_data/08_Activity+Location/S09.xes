@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+<?xml version='1.0' encoding='utf-8'?>
+<log xmlns="http://www.xes-standard.org/" xes.version="1849-2016" xes.features="nested-attributes">
 	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
 	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
 	<string key="origin" value="csv" />
@@ -201,17 +201,6 @@
 			<string key="concept:name" value="Walking @ Cross aisle path;3-4" />
 			<date key="time:timestamp" value="2023-01-01T00:43:41+00:00" />
 			<int key="@@index" value="17" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;3-4" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Walking" />
-			<string key="concept:name" value="Walking @ Cross aisle path;3-4" />
-			<date key="time:timestamp" value="2023-01-01T00:46:13+00:00" />
-			<int key="@@index" value="18" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -1372,17 +1361,6 @@
 		<event>
 			<boolean key="isRetrieval" value="true" />
 			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;3-4" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Walking" />
-			<string key="concept:name" value="Walking @ Cross aisle path;3-4" />
-			<date key="time:timestamp" value="2023-01-01T02:13:22.500000+00:00" />
-			<int key="@@index" value="124" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
 			<string key="location" value="Cross aisle path;2-3" />
 			<string key="location0" value="Cross aisle path" />
 			<string key="activity" value="Walking" />
@@ -1704,17 +1682,6 @@
 			<boolean key="isStorage" value="false" />
 			<string key="location" value="Aisle path;3;back" />
 			<string key="location0" value="Aisle path" />
-			<string key="activity" value="Handling centred" />
-			<string key="concept:name" value="Handling centred @ Aisle path;3;back" />
-			<date key="time:timestamp" value="2023-01-01T02:36:46+00:00" />
-			<int key="@@index" value="154" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Aisle path;3;back" />
-			<string key="location0" value="Aisle path" />
 			<string key="activity" value="Walking" />
 			<string key="concept:name" value="Walking @ Aisle path;3;back" />
 			<date key="time:timestamp" value="2023-01-01T02:38:38+00:00" />
@@ -1796,17 +1763,6 @@
 			<string key="concept:name" value="Walking @ Cross aisle path;3-4" />
 			<date key="time:timestamp" value="2023-01-01T02:41:32.500000+00:00" />
 			<int key="@@index" value="162" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;3-4" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Walking" />
-			<string key="concept:name" value="Walking @ Cross aisle path;3-4" />
-			<date key="time:timestamp" value="2023-01-01T02:46:45.500000+00:00" />
-			<int key="@@index" value="163" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -3022,17 +2978,6 @@
 		<event>
 			<boolean key="isRetrieval" value="true" />
 			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;3-4" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Push" />
-			<string key="concept:name" value="Push @ Cross aisle path;3-4" />
-			<date key="time:timestamp" value="2023-01-01T04:51:50+00:00" />
-			<int key="@@index" value="274" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
 			<string key="location" value="Cross aisle path;2-3" />
 			<string key="location0" value="Cross aisle path" />
 			<string key="activity" value="Push" />
@@ -3061,17 +3006,6 @@
 			<string key="concept:name" value="Handling centred @ Cross aisle path;1-2" />
 			<date key="time:timestamp" value="2023-01-01T04:53:39.500000+00:00" />
 			<int key="@@index" value="277" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;1-2" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Handling centred" />
-			<string key="concept:name" value="Handling centred @ Cross aisle path;1-2" />
-			<date key="time:timestamp" value="2023-01-01T04:54:48.500000+00:00" />
-			<int key="@@index" value="278" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -3770,17 +3704,6 @@
 		<event>
 			<boolean key="isRetrieval" value="true" />
 			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;3-4" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Walking" />
-			<string key="concept:name" value="Walking @ Cross aisle path;3-4" />
-			<date key="time:timestamp" value="2023-01-01T05:53:58.500000+00:00" />
-			<int key="@@index" value="342" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
 			<string key="location" value="Cross aisle path;2-3" />
 			<string key="location0" value="Cross aisle path" />
 			<string key="activity" value="Walking" />
@@ -4342,17 +4265,6 @@
 		<event>
 			<boolean key="isRetrieval" value="true" />
 			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;3-4" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Walking" />
-			<string key="concept:name" value="Walking @ Cross aisle path;3-4" />
-			<date key="time:timestamp" value="2023-01-01T06:33:17.500000+00:00" />
-			<int key="@@index" value="394" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
 			<string key="location" value="Aisle path;3;front" />
 			<string key="location0" value="Aisle path" />
 			<string key="activity" value="Walking" />
@@ -4634,17 +4546,6 @@
 			<string key="concept:name" value="Walking @ Cross aisle path;3-4" />
 			<date key="time:timestamp" value="2023-01-01T06:52:56.500000+00:00" />
 			<int key="@@index" value="420" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;3-4" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Walking" />
-			<string key="concept:name" value="Walking @ Cross aisle path;3-4" />
-			<date key="time:timestamp" value="2023-01-01T06:53:52+00:00" />
-			<int key="@@index" value="421" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -5565,17 +5466,6 @@
 			<boolean key="isStorage" value="false" />
 			<string key="location" value="Cross aisle path;1-2" />
 			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Handling upwards" />
-			<string key="concept:name" value="Handling upwards @ Cross aisle path;1-2" />
-			<date key="time:timestamp" value="2023-01-01T07:57:08+00:00" />
-			<int key="@@index" value="505" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;1-2" />
-			<string key="location0" value="Cross aisle path" />
 			<string key="activity" value="Handling centred" />
 			<string key="concept:name" value="Handling centred @ Cross aisle path;1-2" />
 			<date key="time:timestamp" value="2023-01-01T07:57:41.500000+00:00" />
@@ -5624,17 +5514,6 @@
 			<string key="concept:name" value="Push @ Cross aisle path;3-4" />
 			<date key="time:timestamp" value="2023-01-01T08:01:27+00:00" />
 			<int key="@@index" value="510" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;3-4" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Push" />
-			<string key="concept:name" value="Push @ Cross aisle path;3-4" />
-			<date key="time:timestamp" value="2023-01-01T09:33:04.500000+00:00" />
-			<int key="@@index" value="511" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -5701,17 +5580,6 @@
 			<string key="concept:name" value="Walking @ Cross aisle path;3-4" />
 			<date key="time:timestamp" value="2023-01-01T09:36:50+00:00" />
 			<int key="@@index" value="517" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;3-4" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Walking" />
-			<string key="concept:name" value="Walking @ Cross aisle path;3-4" />
-			<date key="time:timestamp" value="2023-01-01T09:39:19+00:00" />
-			<int key="@@index" value="518" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -5811,17 +5679,6 @@
 			<string key="concept:name" value="Scan @ Aisle path;1;front" />
 			<date key="time:timestamp" value="2023-01-01T09:44:10.500000+00:00" />
 			<int key="@@index" value="527" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Aisle path;1;front" />
-			<string key="location0" value="Aisle path" />
-			<string key="activity" value="Scan" />
-			<string key="concept:name" value="Scan @ Aisle path;1;front" />
-			<date key="time:timestamp" value="2023-01-01T09:45:58.500000+00:00" />
-			<int key="@@index" value="528" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -6036,17 +5893,6 @@
 		<event>
 			<boolean key="isRetrieval" value="true" />
 			<boolean key="isStorage" value="false" />
-			<string key="location" value="Aisle path;1;back" />
-			<string key="location0" value="Aisle path" />
-			<string key="activity" value="Walking" />
-			<string key="concept:name" value="Walking @ Aisle path;1;back" />
-			<date key="time:timestamp" value="2023-01-01T09:59:22.500000+00:00" />
-			<int key="@@index" value="548" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
 			<string key="location" value="Aisle path;1;front" />
 			<string key="location0" value="Aisle path" />
 			<string key="activity" value="Walking" />
@@ -6126,17 +5972,6 @@
 			<boolean key="isStorage" value="false" />
 			<string key="location" value="Aisle path;1;back" />
 			<string key="location0" value="Aisle path" />
-			<string key="activity" value="Scan" />
-			<string key="concept:name" value="Scan @ Aisle path;1;back" />
-			<date key="time:timestamp" value="2023-01-01T10:04:08.500000+00:00" />
-			<int key="@@index" value="556" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Aisle path;1;back" />
-			<string key="location0" value="Aisle path" />
 			<string key="activity" value="Handling centred" />
 			<string key="concept:name" value="Handling centred @ Aisle path;1;back" />
 			<date key="time:timestamp" value="2023-01-01T10:04:46.500000+00:00" />
@@ -6207,17 +6042,6 @@
 			<string key="concept:name" value="Handling centred @ Base" />
 			<date key="time:timestamp" value="2023-01-01T10:10:34.500000+00:00" />
 			<int key="@@index" value="563" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Base" />
-			<string key="location0" value="Base" />
-			<string key="activity" value="Handling centred" />
-			<string key="concept:name" value="Handling centred @ Base" />
-			<date key="time:timestamp" value="2023-01-01T10:11:47.500000+00:00" />
-			<int key="@@index" value="564" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -6845,17 +6669,6 @@
 			<string key="concept:name" value="Scan @ Aisle path;3;front" />
 			<date key="time:timestamp" value="2023-01-01T10:50:07+00:00" />
 			<int key="@@index" value="621" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Aisle path;3;front" />
-			<string key="location0" value="Aisle path" />
-			<string key="activity" value="Scan" />
-			<string key="concept:name" value="Scan @ Aisle path;3;front" />
-			<date key="time:timestamp" value="2023-01-01T10:53:05.500000+00:00" />
-			<int key="@@index" value="622" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -8159,17 +7972,6 @@
 		<event>
 			<boolean key="isRetrieval" value="true" />
 			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;3-4" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Walking" />
-			<string key="concept:name" value="Walking @ Cross aisle path;3-4" />
-			<date key="time:timestamp" value="2023-01-01T12:06:30+00:00" />
-			<int key="@@index" value="741" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
 			<string key="location" value="Cross aisle path;4-5" />
 			<string key="location0" value="Cross aisle path" />
 			<string key="activity" value="Walking" />
@@ -8495,17 +8297,6 @@
 			<string key="concept:name" value="Handling centred @ Cross aisle path;2-3" />
 			<date key="time:timestamp" value="2023-01-01T22:02:32+00:00" />
 			<int key="@@index" value="771" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;2-3" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Handling centred" />
-			<string key="concept:name" value="Handling centred @ Cross aisle path;2-3" />
-			<date key="time:timestamp" value="2023-01-01T22:03:24+00:00" />
-			<int key="@@index" value="772" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -8880,17 +8671,6 @@
 			<string key="concept:name" value="Handling centred @ Base" />
 			<date key="time:timestamp" value="2023-01-01T22:28:46.500000+00:00" />
 			<int key="@@index" value="806" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Base" />
-			<string key="location0" value="Base" />
-			<string key="activity" value="Handling centred" />
-			<string key="concept:name" value="Handling centred @ Base" />
-			<date key="time:timestamp" value="2023-01-01T22:29:28+00:00" />
-			<int key="@@index" value="807" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -9822,17 +9602,6 @@
 			<boolean key="isStorage" value="false" />
 			<string key="location" value="Base" />
 			<string key="location0" value="Base" />
-			<string key="activity" value="Handling centred" />
-			<string key="concept:name" value="Handling centred @ Base" />
-			<date key="time:timestamp" value="2023-01-01T23:29:06+00:00" />
-			<int key="@@index" value="892" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Base" />
-			<string key="location0" value="Base" />
 			<string key="activity" value="Tick off / confirm" />
 			<string key="concept:name" value="Tick off / confirm @ Base" />
 			<date key="time:timestamp" value="2023-01-01T23:29:25.500000+00:00" />
@@ -10035,28 +9804,6 @@
 			<string key="concept:name" value="Handling centred @ Aisle path;3;back" />
 			<date key="time:timestamp" value="2023-01-01T23:43:55.500000+00:00" />
 			<int key="@@index" value="911" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Aisle path;3;back" />
-			<string key="location0" value="Aisle path" />
-			<string key="activity" value="Handling centred" />
-			<string key="concept:name" value="Handling centred @ Aisle path;3;back" />
-			<date key="time:timestamp" value="2023-01-01T23:48:32.500000+00:00" />
-			<int key="@@index" value="912" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Aisle path;3;back" />
-			<string key="location0" value="Aisle path" />
-			<string key="activity" value="Handling centred" />
-			<string key="concept:name" value="Handling centred @ Aisle path;3;back" />
-			<date key="time:timestamp" value="2023-01-01T23:49:52+00:00" />
-			<int key="@@index" value="913" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -10856,17 +10603,6 @@
 			<boolean key="isStorage" value="false" />
 			<string key="location" value="Cross aisle path;2-3" />
 			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Handling centred" />
-			<string key="concept:name" value="Handling centred @ Cross aisle path;2-3" />
-			<date key="time:timestamp" value="2023-01-02T00:43:23+00:00" />
-			<int key="@@index" value="986" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;2-3" />
-			<string key="location0" value="Cross aisle path" />
 			<string key="activity" value="Walking" />
 			<string key="concept:name" value="Walking @ Cross aisle path;2-3" />
 			<date key="time:timestamp" value="2023-01-02T00:44:13.500000+00:00" />
@@ -10959,17 +10695,6 @@
 			<string key="concept:name" value="Walking @ Cross aisle path;2-3" />
 			<date key="time:timestamp" value="2023-01-02T00:47:30.500000+00:00" />
 			<int key="@@index" value="995" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<boolean key="isRetrieval" value="true" />
-			<boolean key="isStorage" value="false" />
-			<string key="location" value="Cross aisle path;2-3" />
-			<string key="location0" value="Cross aisle path" />
-			<string key="activity" value="Walking" />
-			<string key="concept:name" value="Walking @ Cross aisle path;2-3" />
-			<date key="time:timestamp" value="2023-01-02T00:49:01.500000+00:00" />
-			<int key="@@index" value="996" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>

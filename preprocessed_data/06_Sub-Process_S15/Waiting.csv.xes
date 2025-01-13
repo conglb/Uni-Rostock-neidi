@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+<?xml version='1.0' encoding='utf-8'?>
+<log xmlns="http://www.xes-standard.org/" xes.version="1849-2016" xes.features="nested-attributes">
 	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
 	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
 	<string key="origin" value="csv" />
 	<trace>
 		<string key="concept:name" value="Case_15" />
-		<event>
-			<string key="concept:name" value="" />
-			<date key="time:timestamp" value="2023-01-01T00:00:00+00:00" />
-			<int key="@@index" value="0" />
-			<int key="@@case_index" value="0" />
-		</event>
 		<event>
 			<string key="concept:name" value="Standing" />
 			<date key="time:timestamp" value="2023-01-01T00:00:17.500000+00:00" />
@@ -126,51 +120,9 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="" />
-			<date key="time:timestamp" value="2023-01-01T01:03:31+00:00" />
-			<int key="@@index" value="20" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Standing" />
-			<date key="time:timestamp" value="2023-01-01T01:05:02.500000+00:00" />
-			<int key="@@index" value="21" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="" />
-			<date key="time:timestamp" value="2023-01-01T01:06:42+00:00" />
-			<int key="@@index" value="22" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Standing" />
-			<date key="time:timestamp" value="2023-01-01T01:07:13+00:00" />
-			<int key="@@index" value="23" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="" />
-			<date key="time:timestamp" value="2023-01-01T01:09:21.500000+00:00" />
-			<int key="@@index" value="24" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Standing" />
-			<date key="time:timestamp" value="2023-01-01T01:10:41+00:00" />
-			<int key="@@index" value="25" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Handling centred" />
 			<date key="time:timestamp" value="2023-01-01T01:18:21.500000+00:00" />
 			<int key="@@index" value="26" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="" />
-			<date key="time:timestamp" value="2023-01-01T01:18:24.500000+00:00" />
-			<int key="@@index" value="27" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -191,11 +143,5 @@
 			<int key="@@index" value="30" />
 			<int key="@@case_index" value="0" />
 		</event>
-		<event>
-			<string key="concept:name" value="" />
-			<date key="time:timestamp" value="2023-01-01T01:35:16+00:00" />
-			<int key="@@index" value="31" />
-			<int key="@@case_index" value="0" />
-		</event>
-	</trace>
+		</trace>
 </log>

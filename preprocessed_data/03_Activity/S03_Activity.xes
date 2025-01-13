@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+<?xml version='1.0' encoding='utf-8'?>
+<log xmlns="http://www.xes-standard.org/" xes.version="1849-2016" xes.features="nested-attributes">
 	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
 	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
 	<string key="origin" value="csv" />
@@ -9,12 +9,6 @@
 			<string key="concept:name" value="Handling centred" />
 			<date key="time:timestamp" value="2023-01-01T00:19:01+00:00" />
 			<int key="@@index" value="0" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Handling centred" />
-			<date key="time:timestamp" value="2023-01-01T00:25:14+00:00" />
-			<int key="@@index" value="1" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -414,12 +408,6 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="Handling centred" />
-			<date key="time:timestamp" value="2023-01-01T02:07:38+00:00" />
-			<int key="@@index" value="68" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Handling downwards" />
 			<date key="time:timestamp" value="2023-01-01T02:24:03.500000+00:00" />
 			<int key="@@index" value="69" />
@@ -507,12 +495,6 @@
 			<string key="concept:name" value="Handling centred" />
 			<date key="time:timestamp" value="2023-01-01T02:41:03+00:00" />
 			<int key="@@index" value="83" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Handling centred" />
-			<date key="time:timestamp" value="2023-01-01T02:42:39.500000+00:00" />
-			<int key="@@index" value="84" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -660,21 +642,9 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="Handling downwards" />
-			<date key="time:timestamp" value="2023-01-01T03:42:56+00:00" />
-			<int key="@@index" value="109" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Handling centred" />
 			<date key="time:timestamp" value="2023-01-01T03:52:49+00:00" />
 			<int key="@@index" value="110" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Handling centred" />
-			<date key="time:timestamp" value="2023-01-01T03:54:24.500000+00:00" />
-			<int key="@@index" value="111" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -849,12 +819,6 @@
 			<string key="concept:name" value="Handling centred" />
 			<date key="time:timestamp" value="2023-01-01T04:42:20+00:00" />
 			<int key="@@index" value="140" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Handling centred" />
-			<date key="time:timestamp" value="2023-01-01T04:44:39.500000+00:00" />
-			<int key="@@index" value="141" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -1344,12 +1308,6 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="Handling centred" />
-			<date key="time:timestamp" value="2023-01-01T08:31:02.500000+00:00" />
-			<int key="@@index" value="223" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Handling downwards" />
 			<date key="time:timestamp" value="2023-01-01T08:43:26+00:00" />
 			<int key="@@index" value="224" />
@@ -1416,12 +1374,6 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="Handling centred" />
-			<date key="time:timestamp" value="2023-01-01T09:06:33.500000+00:00" />
-			<int key="@@index" value="235" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Walking" />
 			<date key="time:timestamp" value="2023-01-01T09:09:53.500000+00:00" />
 			<int key="@@index" value="236" />
@@ -1443,12 +1395,6 @@
 			<string key="concept:name" value="Walking" />
 			<date key="time:timestamp" value="2023-01-01T09:19:01+00:00" />
 			<int key="@@index" value="239" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Walking" />
-			<date key="time:timestamp" value="2023-01-01T09:22:07+00:00" />
-			<int key="@@index" value="240" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -1506,18 +1452,6 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="Tick off / confirm" />
-			<date key="time:timestamp" value="2023-01-01T09:57:12+00:00" />
-			<int key="@@index" value="250" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Tick off / confirm" />
-			<date key="time:timestamp" value="2023-01-01T10:03:12+00:00" />
-			<int key="@@index" value="251" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Walking" />
 			<date key="time:timestamp" value="2023-01-01T10:07:06.500000+00:00" />
 			<int key="@@index" value="252" />
@@ -1566,12 +1500,6 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="Handling centred" />
-			<date key="time:timestamp" value="2023-01-01T10:18:51+00:00" />
-			<int key="@@index" value="260" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Tick off / confirm" />
 			<date key="time:timestamp" value="2023-01-01T10:25:34.500000+00:00" />
 			<int key="@@index" value="261" />
@@ -1614,12 +1542,6 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="Handling downwards" />
-			<date key="time:timestamp" value="2023-01-01T11:00:48+00:00" />
-			<int key="@@index" value="268" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Tick off / confirm" />
 			<date key="time:timestamp" value="2023-01-01T11:01:15.500000+00:00" />
 			<int key="@@index" value="269" />
@@ -1635,12 +1557,6 @@
 			<string key="concept:name" value="Tick off / confirm" />
 			<date key="time:timestamp" value="2023-01-01T11:16:27.500000+00:00" />
 			<int key="@@index" value="271" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Tick off / confirm" />
-			<date key="time:timestamp" value="2023-01-01T11:22:36.500000+00:00" />
-			<int key="@@index" value="272" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -1797,12 +1713,6 @@
 			<string key="concept:name" value="Handling downwards" />
 			<date key="time:timestamp" value="2023-01-01T12:21:30+00:00" />
 			<int key="@@index" value="298" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Handling downwards" />
-			<date key="time:timestamp" value="2023-01-01T12:23:31.500000+00:00" />
-			<int key="@@index" value="299" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -2088,12 +1998,6 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="Walking" />
-			<date key="time:timestamp" value="2023-01-01T13:17:05.500000+00:00" />
-			<int key="@@index" value="347" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Handling downwards" />
 			<date key="time:timestamp" value="2023-01-01T13:19:32.500000+00:00" />
 			<int key="@@index" value="348" />
@@ -2262,24 +2166,6 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="Handling centred" />
-			<date key="time:timestamp" value="2023-01-01T14:04:29+00:00" />
-			<int key="@@index" value="376" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Handling centred" />
-			<date key="time:timestamp" value="2023-01-01T14:13:46.500000+00:00" />
-			<int key="@@index" value="377" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Handling centred" />
-			<date key="time:timestamp" value="2023-01-01T14:21:42.500000+00:00" />
-			<int key="@@index" value="378" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Handling downwards" />
 			<date key="time:timestamp" value="2023-01-01T14:31:57.500000+00:00" />
 			<int key="@@index" value="379" />
@@ -2289,12 +2175,6 @@
 			<string key="concept:name" value="Handling centred" />
 			<date key="time:timestamp" value="2023-01-01T14:32:22+00:00" />
 			<int key="@@index" value="380" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Handling centred" />
-			<date key="time:timestamp" value="2023-01-01T15:02:47.500000+00:00" />
-			<int key="@@index" value="381" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -2574,12 +2454,6 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="Walking" />
-			<date key="time:timestamp" value="2023-01-01T17:01:46+00:00" />
-			<int key="@@index" value="428" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Handling downwards" />
 			<date key="time:timestamp" value="2023-01-01T17:03:34+00:00" />
 			<int key="@@index" value="429" />
@@ -2589,24 +2463,6 @@
 			<string key="concept:name" value="Walking" />
 			<date key="time:timestamp" value="2023-01-01T17:04:08+00:00" />
 			<int key="@@index" value="430" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Walking" />
-			<date key="time:timestamp" value="2023-01-01T17:07:51.500000+00:00" />
-			<int key="@@index" value="431" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Walking" />
-			<date key="time:timestamp" value="2023-01-01T17:18:26.500000+00:00" />
-			<int key="@@index" value="432" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Walking" />
-			<date key="time:timestamp" value="2023-01-01T17:22:47+00:00" />
-			<int key="@@index" value="433" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -2625,12 +2481,6 @@
 			<string key="concept:name" value="Walking" />
 			<date key="time:timestamp" value="2023-01-01T17:25:58.500000+00:00" />
 			<int key="@@index" value="436" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Walking" />
-			<date key="time:timestamp" value="2023-01-01T17:29:27+00:00" />
-			<int key="@@index" value="437" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -2685,12 +2535,6 @@
 			<string key="concept:name" value="Walking" />
 			<date key="time:timestamp" value="2023-01-01T17:42:11+00:00" />
 			<int key="@@index" value="446" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Walking" />
-			<date key="time:timestamp" value="2023-01-01T17:43:25+00:00" />
-			<int key="@@index" value="447" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -2850,12 +2694,6 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="Walking" />
-			<date key="time:timestamp" value="2023-01-01T18:29:42.500000+00:00" />
-			<int key="@@index" value="474" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Handling centred" />
 			<date key="time:timestamp" value="2023-01-01T18:30:16+00:00" />
 			<int key="@@index" value="475" />
@@ -2889,12 +2727,6 @@
 			<string key="concept:name" value="Walking" />
 			<date key="time:timestamp" value="2023-01-01T18:37:50+00:00" />
 			<int key="@@index" value="480" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Walking" />
-			<date key="time:timestamp" value="2023-01-01T18:41:31.500000+00:00" />
-			<int key="@@index" value="481" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
@@ -3204,12 +3036,6 @@
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
-			<string key="concept:name" value="Walking" />
-			<date key="time:timestamp" value="2023-01-01T19:57:16+00:00" />
-			<int key="@@index" value="533" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
 			<string key="concept:name" value="Handling centred" />
 			<date key="time:timestamp" value="2023-01-01T19:58:29.500000+00:00" />
 			<int key="@@index" value="534" />
@@ -3477,12 +3303,6 @@
 			<string key="concept:name" value="Walking" />
 			<date key="time:timestamp" value="2023-01-01T20:54:19+00:00" />
 			<int key="@@index" value="578" />
-			<int key="@@case_index" value="0" />
-		</event>
-		<event>
-			<string key="concept:name" value="Walking" />
-			<date key="time:timestamp" value="2023-01-01T20:58:25.500000+00:00" />
-			<int key="@@index" value="579" />
 			<int key="@@case_index" value="0" />
 		</event>
 		<event>
