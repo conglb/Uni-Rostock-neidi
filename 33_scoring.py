@@ -6,7 +6,7 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 
 
-def evaluate_conformance(petri_net):
+def evaluate_conformance(petri_net, log):
     net, initial_marking, final_marking = petri_net
     
     replay_results = tokenreplay.algorithm.apply(log, net, initial_marking, final_marking)
@@ -18,9 +18,9 @@ def evaluate_conformance(petri_net):
     token_remaining = result['remaining_tokens'] 
     is_fit = result['trace_is_fit']
     fitness = result['trace_fitness']
-    #if token_consumed + token_missing + token_remaining == 0:  # Avoid division by zero
-    #    return 0.0
-    #fitness = (2 * token_consumed) / (2 * token_consumed + token_missing + token_remaining)
+    if token_consumed + token_missing + token_remaining == 0:  # Avoid division by zero
+        return 0.0
+    fitness = (2 * token_consumed) / (2 * token_consumed + token_missing + token_remaining)
     if not is_fit:
         if fitness > 0.7:
             fitness = 0.7 + (fitness-0.7)/5
@@ -53,13 +53,13 @@ for log_file_path in log_files:
     for name, petrinet in petrinets:
         petrinet_class = name.split('.')[0]
         
-        tmp_fitness = evaluate_conformance(petrinet)
+        tmp_fitness = evaluate_conformance(petrinet, log)
         if tmp_fitness > max_fitness:
             max_fitness = tmp_fitness
             predicted_class = petrinet_class
 
-    #print('Log: ', log_file_path)
-    #print('True: ', true_class, "  Predicted: ", predicted_class)
+    print('Log: ', log_file_path)
+    print('True: ', true_class, "  Predicted: ", predicted_class)
     # Append results
     true_classes.append(true_class)
     predicted_classes.append(predicted_class)

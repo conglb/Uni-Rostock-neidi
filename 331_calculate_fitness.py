@@ -7,10 +7,11 @@ import os
 pnml_dir = './results/petrinet/06_Sub-Process_S07/'
 pnml_files = os.listdir(pnml_dir)
 petrinets = [(file, pnml_importer.apply(os.path.join(pnml_dir,file))) for file in pnml_files]
+petrinets += [("./results/petrinet/06_Sub-Process_SMerged/Returning cart.pnml", pnml_importer.apply("./results/petrinet/06_Sub-Process_SMerged/Returning cart.pnml"))]
 
 # Load event log
-log = pm4py.read.read_xes('./tests/tests_subprocess/06_Sub-Process_for_S1_splitted/Collecting empty cardboard boxes.csv.xes')
-
+log = pm4py.read.read_xes('./tests/tests_subprocess/06_Sub-Process_S07/Returning cart.csv.xes')
+print(log)
 def evaluate_conformance(petri_net):
     net, initial_marking, final_marking = petri_net
     

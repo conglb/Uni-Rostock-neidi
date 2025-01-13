@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<log xes.version="1849-2016" xes.features="nested-attributes">
-	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
 	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
 	<string key="origin" value="csv" />
 	<trace>
 		<string key="concept:name" value="Case_13" />
@@ -10,72 +10,60 @@
 			<date key="time:timestamp" value="2023-01-01T00:00:00+00:00" />
 			<int key="@@index" value="0" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Path" /><string key="subprocess" value="Transport a cart to the base" /></event>
-		<event>
-			<string key="concept:name" value="Pull" />
-			<date key="time:timestamp" value="2023-01-01T00:02:32+00:00" />
-			<int key="@@index" value="1" />
-			<int key="@@case_index" value="0" />
-		<string key="location" value="Cross aisle path" /><string key="subprocess" value="Transport a cart to the base" /></event>
+		</event>
 		<event>
 			<string key="concept:name" value="Handling centred" />
 			<date key="time:timestamp" value="2023-01-01T00:03:22.500000+00:00" />
-			<int key="@@index" value="2" />
+			<int key="@@index" value="1" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Cross aisle path" /><string key="subprocess" value="Transport a cart to the base" /></event>
+		</event>
 		<event>
 			<string key="concept:name" value="Pull" />
 			<date key="time:timestamp" value="2023-01-01T00:04:53.500000+00:00" />
+			<int key="@@index" value="2" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="Handling centred" />
+			<date key="time:timestamp" value="2023-01-01T00:05:24.500000+00:00" />
 			<int key="@@index" value="3" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Path" /><string key="subprocess" value="Transport a cart to the base" /></event>
+		</event>
 		<event>
 			<string key="concept:name" value="Push" />
 			<date key="time:timestamp" value="2023-01-01T00:05:42+00:00" />
 			<int key="@@index" value="4" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Path" /><string key="subprocess" value="Transport a cart to the base" /></event>
+		</event>
 		<event>
 			<string key="concept:name" value="Handling centred" />
 			<date key="time:timestamp" value="2023-01-01T00:06:29+00:00" />
 			<int key="@@index" value="5" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Cross aisle path" /><string key="subprocess" value="Transport a cart to the base" /></event>
+		</event>
 		<event>
 			<string key="concept:name" value="Pull" />
 			<date key="time:timestamp" value="2023-01-01T00:06:53+00:00" />
 			<int key="@@index" value="6" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Path" /><string key="subprocess" value="Transport a cart to the base" /></event>
+		</event>
 		<event>
-			<string key="concept:name" value="Pull" />
-			<date key="time:timestamp" value="2023-01-01T00:07:19.500000+00:00" />
+			<string key="concept:name" value="Handling centred" />
+			<date key="time:timestamp" value="2023-01-01T00:09:42+00:00" />
 			<int key="@@index" value="7" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Cross aisle path" /><string key="subprocess" value="Transport a cart to the base" /></event>
-		<event>
-			<string key="concept:name" value="Push" />
-			<date key="time:timestamp" value="2023-01-01T00:09:57+00:00" />
-			<int key="@@index" value="8" />
-			<int key="@@case_index" value="0" />
-		<string key="location" value="Cross aisle path" /><string key="subprocess" value="Transport a cart to the base" /></event>
+		</event>
 		<event>
 			<string key="concept:name" value="Pull" />
 			<date key="time:timestamp" value="2023-01-01T00:10:31+00:00" />
-			<int key="@@index" value="9" />
+			<int key="@@index" value="8" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Path" /><string key="subprocess" value="Transport a cart to the base" /></event>
-		<event>
-			<string key="concept:name" value="Pull" />
-			<date key="time:timestamp" value="2023-01-01T00:11:38+00:00" />
-			<int key="@@index" value="10" />
-			<int key="@@case_index" value="0" />
-		<string key="location" value="Cross aisle path" /><string key="subprocess" value="Transport a cart to the base" /></event>
+		</event>
 		<event>
 			<string key="concept:name" value="Handling centred" />
 			<date key="time:timestamp" value="2023-01-01T00:13:12+00:00" />
-			<int key="@@index" value="11" />
+			<int key="@@index" value="9" />
 			<int key="@@case_index" value="0" />
-		<string key="location" value="Cross aisle path" /><string key="subprocess" value="Transport a cart to the base" /></event>
+		</event>
 	</trace>
 </log>
