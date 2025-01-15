@@ -1,6 +1,10 @@
 import pm4py
 from pm4py.objects.petri_net.importer import importer as pnml_importer
 from pm4py.algo.conformance import tokenreplay
+from pm4py.algo.evaluation import algorithm as tokenreplay2
+from pm4py.algo.evaluation import apply
+from pm4py.algo.conformance.tokenreplay.variants import token_replay, backwards
+from pm4py.algo.conformance.alignments.petri_net.algorithm import apply_log, apply_trace, apply
 import os
 # Load Petri nets
 
@@ -15,7 +19,13 @@ print(log)
 def evaluate_conformance(petri_net):
     net, initial_marking, final_marking = petri_net
     
+    parameters = {
+        "strict_evaluation": True  
+    }
     replay_results = tokenreplay.algorithm.apply(log, net, initial_marking, final_marking)
+    #replay_results2 = apply(log, net ,initial_marking, final_marking)
+    #replay_results3 = tokenreplay2.apply(log, net, initial_marking, final_marking, parameters=parameters)
+    
     result = replay_results[0]
 
     token_consumed = result['consumed_tokens'] 
@@ -30,8 +40,11 @@ def evaluate_conformance(petri_net):
     if not is_fit:
         if fitness > 0.7:
             fitness = 0.7 + (fitness-0.7)/5
+
+    #fitness2 = replay_results2[0]['fitness']
+    #fitness3 = replay_results3['fitness']
     
-    print(result)
+    #print(result)
     return fitness
 
 for name, petrinet in petrinets:
