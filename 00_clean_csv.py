@@ -53,62 +53,52 @@ def process_folder(input_folder, output_folder, columns_to_delete):
 
 # Example usage
 if __name__ == "__main__":
-    input_folder = "data/06_Sub-Process_filtered"  # Path to the input folder containing CSV files
-    output_folder = "data/06_Sub-Process_filtered+cleaned"  # Path to the output folder
+    input_folder = "data/merged"  # Path to the input folder containing CSV files
+    output_folder = "data/merged_clean"  # Path to the output folder
 
-        # First try with only subprocess and activity
-    # row_names_to_delete = ["Waiting", "Transition", "ANOTHER SUB-PROCESS",
-    # "SUB-PROCESS UNKNOWN", "ANOTHER MAIN-PROCESS", "MAIN-PROCESS UNKNOWN", "Office", "Packing/sorting area", "Issuing/receiving area",
-    #  "Cart area", "Cardboard box area", "Base", "Path", "Cross aisle path", "Aisle path", "ANOTHER LOCATION", "LOCATION UNKNOWN",   "Synchronization",
-    # "Tick off / confirm",    "Scan",    "Pull",    "Push",    "Handling upwards",    "Handling centred",    "Handling downwards",    "Walking",    "Standing",
-    # "Sitting",    "ANOTHER ACTIVITY",    "ACTIVITY UNKNOWN"]  # List of row names to delete
-
-    # # Second try with only packing + activity
-    # row_names_to_delete = ["Collecting order and hardware", "Collecting cart","Collecting empty cardboard boxes", "Collecting packed cardboard boxes",
-    # "Transport a cart to the base", "Picking","Transport to the packing/sorting area", "Unpacking",
-    # "Storing", "Handing over packed cardboard boxes","Returning empty cardboard boxes", "Returning cart","Returning hardware",
-    #  "Report and clarify the incident","Waiting", "Transition", "ANOTHER SUB-PROCESS",
-    # "SUB-PROCESS UNKNOWN", "ANOTHER MAIN-PROCESS", "MAIN-PROCESS UNKNOWN", "Office", "Packing/sorting area", "Issuing/receiving area",
-    #  "Cart area", "Cardboard box area", "Base", "Path", "Cross aisle path", "Aisle path", "ANOTHER LOCATION", "LOCATION UNKNOWN",   "Synchronization",
-    # "Tick off / confirm",    "Scan",    "Pull",    "Push",    "Handling upwards",    "Handling centred",    "Handling downwards",    "Walking",    "Standing",
-    # "Sitting",    "ANOTHER ACTIVITY",    "ACTIVITY UNKNOWN"]  # List of row names to delete
-
-    # Third try with only packing + activity
-    # row_names_to_delete = [
-    # "Collecting order and hardware", "Collecting cart", "Collecting empty cardboard boxes",
-    # "Collecting packed cardboard boxes", "Transport a cart to the base", "Picking",
-    # "Transport to the packing/sorting area","Place cardboard box/item in a cart.1", "Unpacking", "Storing",
-    # "Handing over packed cardboard boxes", "Returning empty cardboard boxes", "Returning cart",
-    # "Returning hardware", "Waiting", "Report and clarify the incident", "Transition",
+    # columns_to_delete = [
     # "ANOTHER SUB-PROCESS", "SUB-PROCESS UNKNOWN", "Remove cardboard box/item from the cart",
-    # "Move to next position", "Placing items on a rack", "Retrieval of items", "Move to a cart",
-    # "Place cardboard box/item in a cart", "Place cardboard box/item on a table",
-    # "Open cardboard box", "Disposal of filling material or shipping label", "Sorting",
-    # "Fill cardboard box with filling material", "Print shipping label and return slip",
-    # "Prepare/add return label", "Attach shipping label", "Remove elastic band",
-    # "Seal cardboard box", "Place cardboard box/item in a cart", "Tie elastic band around cardboard",
-    # "Retrieval", "Storage", "ANOTHER MAIN-PROCESS", "MAIN-PROCESS UNKNOWN", "ANOTHER LOCATION", "LOCATION UNKNOWN",
+    # "Move to next position", "Placing items on a rack", "Retrieval of items", "Move to a cart", 
+    # "Place cardboard box/item in a cart", "Place cardboard box/item on a table", "Open cardboard box",
+    # "Disposal of filling material or shipping label", "Sorting", "Fill cardboard box with filling material",
+    # "Print shipping label and return slip", "Prepare/add return label", "Attach shipping label",
+    # "Remove elastic band", "Seal cardboard box", "Place cardboard box/item in a cart", "Place cardboard box/item in a cart.1"
+    # "Tie elastic band around cardboard", "Retrieval", "Storage", "ANOTHER MAIN-PROCESS",
+    # "MAIN-PROCESS UNKNOWN", "ANOTHER LOCATION", "LOCATION UNKNOWN", "Synchronization",
     # "ANOTHER ACTIVITY", "ACTIVITY UNKNOWN"
-    #]
+    # ]
 
-    columns_to_delete = [
-    "ANOTHER SUB-PROCESS", "SUB-PROCESS UNKNOWN", "Remove cardboard box/item from the cart",
-    "Move to next position", "Placing items on a rack", "Retrieval of items", "Move to a cart", 
-    "Place cardboard box/item in a cart", "Place cardboard box/item on a table", "Open cardboard box",
-    "Disposal of filling material or shipping label", "Sorting", "Fill cardboard box with filling material",
-    "Print shipping label and return slip", "Prepare/add return label", "Attach shipping label",
-    "Remove elastic band", "Seal cardboard box", "Place cardboard box/item in a cart", "Place cardboard box/item in a cart.1"
-    "Tie elastic band around cardboard", "Retrieval", "Storage", "ANOTHER MAIN-PROCESS",
-    "MAIN-PROCESS UNKNOWN", "ANOTHER LOCATION", "LOCATION UNKNOWN", "Synchronization",
-    "ANOTHER ACTIVITY", "ACTIVITY UNKNOWN"
+    columns_to_delete =[
+        "ANOTHER LOCATION","LOCATION UNKNOWN","ANOTHER ACTIVITY","ACTIVITY UNKNOWN","Cross aisle path","Aisle path","Synchronization","ANOTHER SUB-PROCESS",
+         "SUB-PROCESS UNKNOWN", "Remove cardboard box/item from the cart", "Move to next position", "Placing items on a rack", "Retrieval of items", 
+         "Move to a cart", "Place cardboard box/item in a cart", "Place cardboard box/item on a table", "Open cardboard box", 
+         "Disposal of filling material or shipping label", "Sorting", "Fill cardboard box with filling material", "Print shipping label and return slip",
+          "Prepare/add return label", "Attach shipping label", "Remove elastic band", "Seal cardboard box", "Place cardboard box/item in a cart",
+           "Tie elastic band around cardboard", "Path"
     ]
-    
+
     # Collecting order and hardware,Collecting cart,Collecting empty cardboard boxes,
     #Collecting packed cardboard boxes,Transport a cart to the base,Picking,Transport to the packing/sorting area,
     #Unpacking,Packing,Storing,Handing over packed cardboard boxes,Returning empty cardboard boxes,Returning cart,
     #Returning hardware,Waiting,Report and clarify the incident,Transition,Place cardboard box/item in a cart.1,Office,Cart area,
     #Cardboard box area,Base,Packing/sorting area,Issuing/receiving area,Path,Cross aisle path,Aisle path,Tick off / confirm,Scan,Pull,
     #Push,Handling upwards,Handling centred,Handling downwards,Walking,Standing,Sitting
+
+    # Office,Cart area,Cardboard box area,Base,Packing/sorting area,Issuing/receiving area,
+    # Path,Cross aisle path,Aisle path,Path (Office),Path (Cardboard box area),Path (Cart area),Path (Issuing area),1-2,2-3,3-4,4-5,1,2,3,4,5,
+    # front,back,ANOTHER LOCATION,LOCATION UNKNOWN,Synchronization,Tick off / confirm,Scan,Pull,Push,Handling upwards,Handling centred,
+    # Handling downwards,Walking,Standing,Sitting,ANOTHER ACTIVITY,ACTIVITY UNKNOWN,Collecting order and hardware,Collecting cart,
+    # Collecting empty cardboard boxes,Collecting packed cardboard boxes,Transport a cart to the base,Picking,Transport to the packing/sorting area,
+    # Unpacking,Packing,Storing,Handing over packed cardboard boxes,Returning empty cardboard boxes,Returning cart,Returning hardware,Waiting,
+    # Report and clarify the incident,Transition,ANOTHER SUB-PROCESS,SUB-PROCESS UNKNOWN,Remove cardboard box/item from the cart,
+    # Move to next position,Placing items on a rack,Retrieval of items,Move to a cart,Place cardboard box/item in a cart,
+    # Place cardboard box/item on a table,Open cardboard box,Disposal of filling material or shipping label,Sorting,
+    # Fill cardboard box with filling material,Print shipping label and return slip,Prepare/add return label,
+    # Attach shipping label,Remove elastic band,Seal cardboard box,Place cardboard box/item in a cart,Tie elastic band around cardboard
+
+
+
+
 
     process_folder(input_folder, output_folder, columns_to_delete)
 

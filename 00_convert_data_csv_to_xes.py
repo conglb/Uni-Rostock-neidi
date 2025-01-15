@@ -5,22 +5,25 @@ import os
 
 # Input and output directories
 dirname = 'data//06_Sub-Process_filtered//S15'
-output_dirname = 'preprocessed_data//06_Sub-Process//'
+output_dirname = 'preprocessed_data//S15//'
 
 # Ensure the output directory exists
 os.makedirs(output_dirname, exist_ok=True)
 
 # Define filtering list
-merge_list = ["Tick off // confirm","Scan","Pull","Push","Handling upwards","Handling centred","Handling downwards","Walking","Standing","Sitting"]  
+merge_list = ["Path"]  
 
 # Process all CSV files in the input directory
 for i, filename in enumerate(os.listdir(dirname)):
     if filename.endswith('.csv'):
         file_path = os.path.join(dirname, filename)
         df = pd.read_csv(file_path)
+        print(filename[:filename.rfind(".")])
+        merge_list = ["Path","Place cardboard box/item in a cart.1", "back", "front", filename[:filename.rfind(".")]] 
 
-        # Filter rows based on the activity list
-        df = df[df.columns.intersection(merge_list)]  # Keep only columns in merge_list
+       # Filter rows to exclude activities in the merge_list
+        df = df[df.columns.difference(merge_list)]  # Exclude columns in merge_list
+
 
         # Transform the DataFrame for merging
         df['concept:name'] = df.apply(lambda row: ', '.join(row[row == 1].index), axis=1)

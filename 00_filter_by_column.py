@@ -48,26 +48,26 @@ def filter_csv_by_columns(input_folder, output_folder, columns):
                         print(f"Filtered CSV for column '{column_name}' saved to {output_file}.")
 
 # Usage
-input_folder = 'data/merged'  # Path to the input folder containing CSV files
+input_folder = 'data/merged_clean'  # Path to the input folder containing CSV files
 output_folder = 'data/06_Sub-Process_filtered'  # Folder to save the filtered CSV files
 columns = [
-    "Collecting order and hardware",
-    "Collecting cart",
-    "Collecting empty cardboard boxes",
-    "Collecting packed cardboard boxes",
-    "Transport a cart to the base",
-    "Picking",
-    "Transport to the packing // sorting area",
-    "Unpacking",
-    "Packing",
-    "Storing",
-    "Handing over packed cardboard boxes",
-    "Returning empty cardboard boxes",
-    "Returning cart",
-    "Returning hardware",
-    "Waiting",
-    "Report and clarify the incident",
-    "Transition"
+         "Collecting order and hardware",
+            "Collecting cart",
+            "Collecting empty cardboard boxes",
+            "Collecting packed cardboard boxes",
+            "Transport a cart to the base",
+            "Picking",
+            "Transport to the packing+sorting area",
+            "Unpacking",
+            "Packing",
+            "Storing",
+            "Handing over packed cardboard boxes",
+            "Returning empty cardboard boxes",
+            "Returning cart",
+            "Returning hardware",
+            "Waiting",
+            "Report and clarify the incident",
+            "Transition"
 ]  # Replace with the column names you want to filter
 
 filter_csv_by_columns(input_folder, output_folder, columns)
