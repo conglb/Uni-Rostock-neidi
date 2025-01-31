@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1737475291.1144667" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1737475291.1144667</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <transition id="888a2054-7386-4f78-9e79-605480f70eb8">
+        <name>
+          <text>Push, Path (Office)</text>
+        </name>
+      </transition>
+      <transition id="9fa0ae43-7d90-45b2-bb6b-c524379bd394">
+        <name>
+          <text>Push, Path (Cardboard box area)</text>
+        </name>
+      </transition>
+      <transition id="536312b1-285c-47c4-99d1-6af70c18491d">
+        <name>
+          <text>Push, Path (Cart area)</text>
+        </name>
+      </transition>
+      <transition id="d778eae7-a663-41fb-9e64-849d9f133f47">
+        <name>
+          <text>Push, Cart area</text>
+        </name>
+      </transition>
+      <arc id="140490540260176" source="source" target="888a2054-7386-4f78-9e79-605480f70eb8"/>
+      <arc id="140490541040912" source="888a2054-7386-4f78-9e79-605480f70eb8" target="p_3"/>
+      <arc id="140490541043024" source="9fa0ae43-7d90-45b2-bb6b-c524379bd394" target="p_4"/>
+      <arc id="140490541055888" source="p_4" target="536312b1-285c-47c4-99d1-6af70c18491d"/>
+      <arc id="140490541043152" source="p_3" target="9fa0ae43-7d90-45b2-bb6b-c524379bd394"/>
+      <arc id="140490541044176" source="536312b1-285c-47c4-99d1-6af70c18491d" target="p_5"/>
+      <arc id="140490541045456" source="p_5" target="d778eae7-a663-41fb-9e64-849d9f133f47"/>
+      <arc id="140490541045072" source="d778eae7-a663-41fb-9e64-849d9f133f47" target="sink"/>
+    </page>
+  </net>
+</pnml>

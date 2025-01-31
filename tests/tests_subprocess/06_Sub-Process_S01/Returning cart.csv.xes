@@ -6,9 +6,21 @@
 	<trace>
 		<string key="concept:name" value="Case_8" />
 		<event>
-			<string key="concept:name" value="Push" />
+			<string key="concept:name" value="Push, Path (Cardboard box area)" />
 			<date key="time:timestamp" value="2023-01-01T00:00:00+00:00" />
 			<int key="@@index" value="0" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="Push, Path (Cart area)" />
+			<date key="time:timestamp" value="2023-01-01T00:00:20+00:00" />
+			<int key="@@index" value="1" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="Push, Cart area" />
+			<date key="time:timestamp" value="2023-01-01T00:01:13.500000+00:00" />
+			<int key="@@index" value="2" />
 			<int key="@@case_index" value="0" />
 		</event>
 	</trace>

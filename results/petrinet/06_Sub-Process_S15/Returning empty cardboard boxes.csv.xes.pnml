@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1737475291.1086972" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1737475291.1086972</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="35d5d4b4-4c9a-4da2-bb3c-dc47f21648b7"/>
+      </transition>
+      <transition id="9409d6a8-10a3-48c2-9dee-4a7b1e1831b7">
+        <name>
+          <text>Walking, Path (Office)</text>
+        </name>
+      </transition>
+      <transition id="92104410-7780-487d-9e53-5445d4e6589a">
+        <name>
+          <text>Walking, Path (Cardboard box area)</text>
+        </name>
+      </transition>
+      <transition id="0152d08a-225d-4331-adb5-5593e2f04891">
+        <name>
+          <text>Walking, Cardboard box area</text>
+        </name>
+      </transition>
+      <transition id="459bb475-e74c-4f15-94c9-6a3e69e0dcf1">
+        <name>
+          <text>Handling downwards, Cardboard box area</text>
+        </name>
+      </transition>
+      <transition id="5c3b445d-6c69-45a0-bdd1-f931d143e37b">
+        <name>
+          <text>Handling centred, Cardboard box area</text>
+        </name>
+      </transition>
+      <arc id="140490541049424" source="p_6" target="459bb475-e74c-4f15-94c9-6a3e69e0dcf1"/>
+      <arc id="140490541055696" source="5c3b445d-6c69-45a0-bdd1-f931d143e37b" target="sink"/>
+      <arc id="140490540981648" source="source" target="tau_1"/>
+      <arc id="140490541055312" source="p_6" target="5c3b445d-6c69-45a0-bdd1-f931d143e37b"/>
+      <arc id="140490541054800" source="p_5" target="9409d6a8-10a3-48c2-9dee-4a7b1e1831b7"/>
+      <arc id="140490541055760" source="459bb475-e74c-4f15-94c9-6a3e69e0dcf1" target="p_5"/>
+      <arc id="140490541053776" source="tau_1" target="p_5"/>
+      <arc id="140490541049552" source="9409d6a8-10a3-48c2-9dee-4a7b1e1831b7" target="p_7"/>
+      <arc id="140490541045328" source="p_7" target="92104410-7780-487d-9e53-5445d4e6589a"/>
+      <arc id="140490541040464" source="92104410-7780-487d-9e53-5445d4e6589a" target="p_8"/>
+      <arc id="140490541049104" source="p_8" target="0152d08a-225d-4331-adb5-5593e2f04891"/>
+      <arc id="140490541046224" source="0152d08a-225d-4331-adb5-5593e2f04891" target="p_6"/>
+    </page>
+  </net>
+</pnml>

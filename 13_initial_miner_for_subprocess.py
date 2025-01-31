@@ -2,7 +2,6 @@ import pm4py
 from pm4py.objects.log.obj import EventLog, Trace, Event
 
 # import togml
-from TInvRecogniser import TInvRecogniser
 from pm4py.objects.log.exporter.xes import exporter as xes_exporter
 from datetime import datetime
 from pm4py.algo.conformance.tokenreplay import algorithm as token_replay
@@ -18,8 +17,8 @@ import sympy
 import os
 
 # arr2 = arr[:3]
-dirname = './preprocessed_data/06_Sub-Process_S07/'
-output_dirname='./results/petrinet/06_Sub-Process_S07/'
+dirname = './preprocessed_data/06_Sub-Process_S15/'
+output_dirname='./results/petrinet/06_Sub-Process_S15/'
 os.makedirs(output_dirname)
 filenames = os.listdir(dirname)
 

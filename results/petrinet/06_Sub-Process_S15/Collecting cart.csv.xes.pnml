@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1737475300.7628918" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1737475300.7628918</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4544207e-7108-44fa-99a6-4f09d9722383"/>
+      </transition>
+      <transition id="a01f40a0-ee52-4aa5-bcc6-27ed308c8914">
+        <name>
+          <text>Walking, Path (Cardboard box area)</text>
+        </name>
+      </transition>
+      <transition id="7c566459-bfab-4517-87ea-595ff8db22ad">
+        <name>
+          <text>Walking, Path (Office)</text>
+        </name>
+      </transition>
+      <transition id="b1d8ec6d-cdaf-492e-8dfe-912e7711a756">
+        <name>
+          <text>Walking, Path (Cart area)</text>
+        </name>
+      </transition>
+      <transition id="296baf0f-cc9d-4fd1-be19-2cfc5d37bf54">
+        <name>
+          <text>Walking, Cart area</text>
+        </name>
+      </transition>
+      <transition id="ece66b07-b122-4b3f-81ce-99827f99059b">
+        <name>
+          <text>Handling centred, Cart area</text>
+        </name>
+      </transition>
+      <transition id="df9f3d54-86db-44e3-9dec-3a0144596cb3">
+        <name>
+          <text>Walking, Path (Issuing area)</text>
+        </name>
+      </transition>
+      <arc id="140490539577040" source="df9f3d54-86db-44e3-9dec-3a0144596cb3" target="sink"/>
+      <arc id="140490539570064" source="p_9" target="296baf0f-cc9d-4fd1-be19-2cfc5d37bf54"/>
+      <arc id="140490539570960" source="p_5" target="7c566459-bfab-4517-87ea-595ff8db22ad"/>
+      <arc id="140490539581072" source="7c566459-bfab-4517-87ea-595ff8db22ad" target="p_7"/>
+      <arc id="140490539568656" source="p_6" target="df9f3d54-86db-44e3-9dec-3a0144596cb3"/>
+      <arc id="140490539569872" source="p_10" target="ece66b07-b122-4b3f-81ce-99827f99059b"/>
+      <arc id="140490539581008" source="ece66b07-b122-4b3f-81ce-99827f99059b" target="p_5"/>
+      <arc id="140490538024272" source="source" target="tau_1"/>
+      <arc id="140490539576400" source="tau_1" target="p_5"/>
+      <arc id="140490539568080" source="p_7" target="a01f40a0-ee52-4aa5-bcc6-27ed308c8914"/>
+      <arc id="140490539575632" source="a01f40a0-ee52-4aa5-bcc6-27ed308c8914" target="p_6"/>
+      <arc id="140490539579472" source="p_6" target="b1d8ec6d-cdaf-492e-8dfe-912e7711a756"/>
+      <arc id="140490539567440" source="b1d8ec6d-cdaf-492e-8dfe-912e7711a756" target="p_9"/>
+      <arc id="140490539571664" source="296baf0f-cc9d-4fd1-be19-2cfc5d37bf54" target="p_10"/>
+    </page>
+  </net>
+</pnml>

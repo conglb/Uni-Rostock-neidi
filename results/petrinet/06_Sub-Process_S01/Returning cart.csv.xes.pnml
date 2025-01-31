@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1737474666.9461377" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1737474666.9461377</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <transition id="6c611fc8-3258-45e0-bbc6-3fc027fc9f12">
+        <name>
+          <text>Push, Path (Cardboard box area)</text>
+        </name>
+      </transition>
+      <transition id="c8d9045e-5f6f-4dfa-b7fe-43f808075462">
+        <name>
+          <text>Push, Path (Cart area)</text>
+        </name>
+      </transition>
+      <transition id="63c0f497-8e51-47af-abb3-2eca3887678c">
+        <name>
+          <text>Push, Cart area</text>
+        </name>
+      </transition>
+      <arc id="139878929313296" source="source" target="6c611fc8-3258-45e0-bbc6-3fc027fc9f12"/>
+      <arc id="139878928752976" source="p_4" target="63c0f497-8e51-47af-abb3-2eca3887678c"/>
+      <arc id="139878928744848" source="p_3" target="c8d9045e-5f6f-4dfa-b7fe-43f808075462"/>
+      <arc id="139878928746384" source="c8d9045e-5f6f-4dfa-b7fe-43f808075462" target="p_4"/>
+      <arc id="139878928751760" source="6c611fc8-3258-45e0-bbc6-3fc027fc9f12" target="p_3"/>
+      <arc id="139878928756048" source="63c0f497-8e51-47af-abb3-2eca3887678c" target="sink"/>
+    </page>
+  </net>
+</pnml>

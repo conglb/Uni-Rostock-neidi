@@ -17,7 +17,7 @@ def evaluate_conformance(petri_net, log):
     }
     replay_results = tokenreplay.algorithm.apply(log, net, initial_marking, final_marking)
     replay_results2 = apply_log(log, net ,initial_marking, final_marking)
-    replay_results3 = tokenreplay2.apply(log, net, initial_marking, final_marking, parameters=parameters)
+    #replay_results3 = tokenreplay2.apply(log, net, initial_marking, final_marking, parameters=parameters)
     
     result = replay_results[0]
 
@@ -35,15 +35,15 @@ def evaluate_conformance(petri_net, log):
             fitness = 0.7 + (fitness-0.7)/5
 
     fitness2 = replay_results2[0]['fitness']
-    fitness3 = replay_results3['fitness']
+    #fitness3 = replay_results3['fitness']
     
     #print(result)
     return (fitness + fitness2*2) / 3
-
+    #return fitness
 
 # Load Petri nets
 
-pnml_dir = './results/petrinet/06_Sub-Process_S07/'
+pnml_dir = './results/petrinet/06_Sub-Process_S15/'
 pnml_files = os.listdir(pnml_dir)
 petrinets = [(file, pnml_importer.apply(os.path.join(pnml_dir,file))) for file in pnml_files]
 

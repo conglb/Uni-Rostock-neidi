@@ -3,8 +3,8 @@ from pm4py.visualization.petri_net import visualizer as pn_visualizer
 #from pm4py.simulation.petri_net import simulator as pn_simulator
 import os
 
-dirname = './results/petrinet/06_Sub-Process_S07/'
-output_dirname='./results/petrinet_img/06_Sub-Process_S07/'
+dirname = './results/petrinet/06_Sub-Process_S15/'
+output_dirname='./results/petrinet_img/06_Sub-Process_S15/'
 os.makedirs(output_dirname)
 filenames = os.listdir(dirname)
 
