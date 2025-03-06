@@ -2,7 +2,6 @@ import pm4py
 from pm4py.objects.petri_net.importer import importer as pnml_importer
 from pm4py.algo.conformance import tokenreplay
 from pm4py.algo.evaluation import algorithm as tokenreplay2
-from pm4py.algo.evaluation import apply
 from pm4py.algo.conformance.tokenreplay.variants import token_replay, backwards
 from pm4py.algo.conformance.alignments.petri_net.algorithm import apply_log, apply_trace, apply
 import os

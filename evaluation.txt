@@ -1,0 +1,4 @@
+Accuracy: 0.6471
+Precision: 0.6541
+F1 Score: 0.6105
+Adjusted Rand Index: 0.3288

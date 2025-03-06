@@ -17,8 +17,8 @@ import sympy
 import os
 
 # arr2 = arr[:3]
-dirname = './preprocessed_data/06_Sub-Process_S15/'
-output_dirname='./results/petrinet/06_Sub-Process_S15/'
+dirname = './preprocessed_data/06_Sub-Process_S03/'
+output_dirname='./results/petrinet/06_Sub-Process_S03/'
 os.makedirs(output_dirname)
 filenames = os.listdir(dirname)
 
@@ -29,7 +29,7 @@ for i, filename in enumerate(filenames):
     process_tree = heuristic_miner.apply(log)
     net, initial_marking, final_marking = pm4py.convert_to_petri_net(process_tree)
 
-    # net, initial_marking, final_marking = inductive_miner.apply(log)
+    #net, initial_marking, final_marking = inductive_miner.apply(log)
 
     # net_file_name = 'final_net_BPIC17_ind.pnml'
     # net_path_out = os.path.join(os.path.dirname(__file__), net_file_name)
