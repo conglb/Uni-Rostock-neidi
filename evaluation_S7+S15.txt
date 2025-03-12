@@ -1,0 +1,30 @@
+Ground true : ['Collecting order and hardware', 'Report and clarify the incident', 'Transport to the packing+sorting area', 'Picking', 'Transition', 'Waiting', 'Transport a cart to the base', 'Returning hardware', 'Handing over packed cardboard boxes', 'Returning empty cardboard boxes', 'Collecting cart', 'Collecting empty cardboard boxes', 'Storing', 'Packing', 'Unpacking', 'Collecting packed cardboard boxes', 'Returning cart', 'Collecting order and hardware', 'Report and clarify the incident', 'Transport to the packing+sorting area', 'Picking', 'Transition', 'Waiting', 'Transport a cart to the base', 'Returning hardware', 'Handing over packed cardboard boxes', 'Returning empty cardboard boxes', 'Collecting cart', 'Collecting empty cardboard boxes', 'Storing', 'Packing', 'Unpacking', 'Collecting packed cardboard boxes', 'Returning cart']
+Predicted true : ['Collecting order and hardware', 'Picking', 'Transport to the packing+sorting area', 'Picking', 'Packing', 'Waiting', 'Transport a cart to the base', 'Collecting order and hardware', 'Handing over packed cardboard boxes', 'Collecting cart', 'Collecting cart', 'Collecting empty cardboard boxes', 'Picking', 'Packing', 'Unpacking', 'Handing over packed cardboard boxes', 'Returning cart', 'Collecting order and hardware', 'Picking', 'Transport to the packing+sorting area', 'Picking', 'Picking', 'Waiting', 'Picking', 'Returning hardware', 'Collecting packed cardboard boxes', 'Returning empty cardboard boxes', 'Collecting cart', 'Collecting empty cardboard boxes', 'Picking', 'Packing', 'Packing', 'Handing over packed cardboard boxes', 'Returning cart']
+Accuracy: 0.6176
+Precision: 0.6127
+F1 Score: 0.5725
+Adjusted Rand Index: 0.3132
+                                       precision    recall  f1-score   support
+
+                      Collecting cart       0.67      1.00      0.80         2
+     Collecting empty cardboard boxes       1.00      1.00      1.00         2
+        Collecting order and hardware       0.67      1.00      0.80         2
+    Collecting packed cardboard boxes       0.00      0.00      0.00         2
+  Handing over packed cardboard boxes       0.33      0.50      0.40         2
+                              Packing       0.50      1.00      0.67         2
+                              Picking       0.25      1.00      0.40         2
+      Report and clarify the incident       0.00      0.00      0.00         2
+                       Returning cart       1.00      1.00      1.00         2
+      Returning empty cardboard boxes       1.00      0.50      0.67         2
+                   Returning hardware       1.00      0.50      0.67         2
+                              Storing       0.00      0.00      0.00         2
+                           Transition       0.00      0.00      0.00         2
+         Transport a cart to the base       1.00      0.50      0.67         2
+Transport to the packing+sorting area       1.00      1.00      1.00         2
+                            Unpacking       1.00      0.50      0.67         2
+                              Waiting       1.00      1.00      1.00         2
+
+                             accuracy                           0.62        34
+                            macro avg       0.61      0.62      0.57        34
+                         weighted avg       0.61      0.62      0.57        34
+
