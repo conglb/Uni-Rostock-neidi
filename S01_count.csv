@@ -1,0 +1,108 @@
+High-Level Process,Main Area,Activity,count
+Retrieval,Packing/sorting area,Handling centred,24172
+Retrieval,Aisle path,Handling centred,14235
+Retrieval,Aisle path,Scan,9739
+Retrieval,Cross aisle path,Walking,9379
+Retrieval,Aisle path,Handling downwards,9169
+Retrieval,Aisle path,Walking,6461
+Retrieval,Aisle path,Standing,6076
+Retrieval,Packing/sorting area,Standing,5478
+Retrieval,Cross aisle path,Handling centred,4352
+Retrieval,Path,Push,4210
+Retrieval,Office,Standing,3610
+Retrieval,Aisle path,Handling upwards,3360
+Retrieval,Cross aisle path,Handling upwards,3022
+Retrieval,Office,Handling centred,2862
+Retrieval,Base,Handling centred,2763
+Retrieval,Aisle path,Tick off / confirm,2594
+Retrieval,Office,Walking,2120
+Retrieval,Base,Tick off / confirm,1911
+Retrieval,Cross aisle path,Standing,1640
+Retrieval,Cross aisle path,Push,1595
+Retrieval,Base,Handling upwards,1525
+Retrieval,Packing/sorting area,Handling upwards,1403
+Retrieval,Cross aisle path,Scan,1369
+Retrieval,Path,Walking,1078
+Retrieval,Packing/sorting area,Walking,1057
+Retrieval,Cardboard box area,Handling centred,880
+Retrieval,Cross aisle path,Tick off / confirm,831
+Retrieval,Base,Walking,827
+Retrieval,Path,Pull,728
+Retrieval,Base,Standing,719
+Retrieval,Packing/sorting area,Push,717
+Retrieval,Cross aisle path,Pull,699
+Retrieval,Office,Push,631
+Retrieval,Office,Handling upwards,625
+Retrieval,Issuing/receiving area,Handling centred,608
+Retrieval,Issuing/receiving area,Handling upwards,513
+Retrieval,Office,Pull,466
+Retrieval,Issuing/receiving area,Handling downwards,429
+Retrieval,Packing/sorting area,Pull,397
+Retrieval,Packing/sorting area,Handling downwards,363
+Retrieval,Cardboard box area,Push,335
+Retrieval,Issuing/receiving area,Push,278
+Retrieval,Cardboard box area,Pull,208
+Retrieval,Cardboard box area,Handling downwards,205
+Retrieval,Path,Handling centred,199
+Retrieval,Issuing/receiving area,Pull,157
+Retrieval,Cardboard box area,Walking,128
+Retrieval,Office,Handling downwards,107
+Retrieval,Cross aisle path,Handling downwards,74
+Retrieval,Cardboard box area,Handling upwards,65
+Retrieval,Cardboard box area,Standing,61
+Retrieval,Cart area,Pull,49
+Retrieval,Base,Handling downwards,48
+Retrieval,Issuing/receiving area,Standing,40
+Retrieval,Cart area,Handling centred,34
+Retrieval,Path,Standing,27
+Retrieval,Issuing/receiving area,Walking,26
+Retrieval,Base,Scan,18
+Storage,Packing/sorting area,Handling centred,9151
+Storage,Aisle path,Handling centred,7197
+Storage,Base,Handling centred,6830
+Storage,Cross aisle path,Walking,3871
+Storage,Path,Push,2508
+Storage,Aisle path,Walking,2350
+Storage,Aisle path,Standing,1899
+Storage,Cross aisle path,Handling centred,1646
+Storage,Aisle path,Handling downwards,1629
+Storage,Base,Handling upwards,1514
+Storage,Aisle path,Handling upwards,1341
+Storage,Base,Standing,1015
+Storage,Office,Handling centred,809
+Storage,Issuing/receiving area,Handling centred,800
+Storage,Cross aisle path,Push,747
+Storage,Packing/sorting area,Handling upwards,714
+Storage,Issuing/receiving area,Handling downwards,620
+Storage,Path,Pull,574
+Storage,Packing/sorting area,Handling downwards,488
+Storage,Office,Handling upwards,463
+Storage,Cross aisle path,Handling upwards,447
+Storage,Cross aisle path,Standing,442
+Storage,Issuing/receiving area,Handling upwards,429
+Storage,Packing/sorting area,Push,421
+Storage,Office,Push,342
+Storage,Office,Standing,333
+Storage,Cardboard box area,Handling centred,319
+Storage,Office,Pull,310
+Storage,Cardboard box area,Handling upwards,271
+Storage,Cardboard box area,Handling downwards,266
+Storage,Base,Walking,246
+Storage,Packing/sorting area,Walking,193
+Storage,Packing/sorting area,Pull,172
+Storage,Issuing/receiving area,Pull,139
+Storage,Path,Standing,127
+Storage,Packing/sorting area,Standing,123
+Storage,Cart area,Push,120
+Storage,Cardboard box area,Push,111
+Storage,Issuing/receiving area,Push,107
+Storage,Cardboard box area,Pull,103
+Storage,Cross aisle path,Pull,103
+Storage,Path,Handling centred,83
+Storage,Office,Walking,71
+Storage,Base,Handling downwards,63
+Storage,Path,Handling downwards,63
+Storage,Cardboard box area,Standing,62
+Storage,Issuing/receiving area,Standing,57
+Storage,Cross aisle path,Handling downwards,12
+Storage,Path,Handling upwards,7

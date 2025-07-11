@@ -401,11 +401,5 @@
 			<int key="@@index" value="65" />
 			<int key="@@case_index" value="0" />
 		</event>
-		<event>
-			<string key="concept:name" value="Handling downwards, Packing/sorting area" />
-			<date key="time:timestamp" value="2023-01-01T03:35:20.500000+00:00" />
-			<int key="@@index" value="66" />
-			<int key="@@case_index" value="0" />
-		</event>
 	</trace>
 </log>
