@@ -4,8 +4,21 @@ from datetime import timedelta
 import matplotlib.pyplot as plt
 import os
 
+ENDING_CONDITIONS = (
+    ["Issuing/receiving area", "Path", "Office"],
+        ['Packing/sorting area', "Path", "Office"],
+    ["Cart area", "Path", "Office"],
+    ["Cardboard box area", "Path", "Office"],
+)
 
-petrinet, init_state, final_state = pm4py.read_pnml('./output_Location_Master.pnml')
+CORRESPONDING_HIGH_LEVEL_PROCESS = (
+    'Retrieval',
+    'Retrieval',
+    'Storage',
+    'Storage'
+)
+
+petrinet, init_state, final_state = pm4py.read_pnml('./output_Location_Master2.pnml')
 
 def print_series_as_string(df):
     l = df.to_list()
@@ -61,14 +74,12 @@ def label_high_level_process(df: pd.DataFrame) -> pd.DataFrame:
             if i > 3:
                 last_three_locations = df["Main Area"].iloc[i-3:i].tolist()
                 #print(f"Last three locations: {last_three_locations}")
-                if (last_three_locations == ["Issuing/receiving area", "Path", "Office"] or last_three_locations == ["Cart area", "Path", "Office"]):
+                if (last_three_locations in ENDING_CONDITIONS):
                     meet_ending_condition = True
 
             if fitness > 0.8 and meet_ending_condition:
-                if last_three_locations == ["Issuing/receiving area", "Path", "Office"]:
-                    df.loc[starting_event:i, 'Predicted High-Level Process'] = 'Retrieval'
-                elif last_three_locations == ["Cart area", "Path", "Office"]:
-                    df.loc[starting_event:i, 'Predicted High-Level Process'] = 'Storage'
+                high_level_process_name = CORRESPONDING_HIGH_LEVEL_PROCESS[ENDING_CONDITIONS.index(last_three_locations)]
+                df.loc[starting_event:i, 'Predicted High-Level Process'] = high_level_process_name
                 with open('./High-Level Process segments.txt', 'a') as f:
                     f.write(f"High-Level Segment from {starting_event} to {i-1} - Location: {print_series_as_string(df.loc[starting_event:i-1, 'Main Area'])}\n")
                 starting_event = i
@@ -91,14 +102,14 @@ def label_high_level_process(df: pd.DataFrame) -> pd.DataFrame:
     fig.add_trace(go.Scatter(y=df['Encoded High-Level Process'], mode='lines', name='High-Level Process'))
 
     # Add green markers for 'Preparing order'
-    prep_indices = df[df['Mid-Level Process'] == 'Preparing order'].index
+    prep_indices = df[df['Mid-Level Process'] == 'Finalizing order'].index
     prep_values = df.loc[prep_indices, 'Encoded High-Level Process']
     fig.add_trace(go.Scatter(
         x=prep_indices,
         y=[0] * len(prep_indices),  
         mode='markers',
         marker=dict(color='green', size=8),
-        name='Preparing order'
+        name='Finalize and start a new order'
     ))
 
     fig.update_layout(title='Fitness Over Time (Threshold=0.8+EndingRules)', xaxis_title='Event Index', yaxis_title='Fitness')
@@ -131,11 +142,11 @@ def evaluation(df: pd.DataFrame):
     plt.show()
   
 def main():
-    input_path = './data_preprocessed/merged/S01-07.csv'
-    input_dir = './data_preprocessed'
-    output_path = './data_preprocessed/merged/S01-07.csv'
-    preprocessed_output_path = './S01-07_preprocessed.csv'
-    predicted_output_path = './S01-07_predicted.csv'
+    input_path = './data_preprocessed/merged/S01-18.csv'
+    input_dir = './data'
+    output_path = './data_preprocessed/merged/S01-18.csv'
+    preprocessed_output_path = './S01-18_preprocessed.csv'
+    predicted_output_path = './S01-18_predicted.csv'
 
     """
     # PREPROCESSING
@@ -153,24 +164,27 @@ def main():
             ignore_index=True
         )
     merged_df.to_csv(output_path, index=False)
+    print(f"✅ Merged CSV files saved to: {output_path}")
     """
-    
-    """
+
+
     # PREDICTING
     merged_df = pd.read_csv(input_path)
     df = preprocess_data(merged_df)
 
     df.to_csv(preprocessed_output_path, index=True)
     df_labeled = label_high_level_process(df)   
+
     df_labeled.to_csv(predicted_output_path, index=True)
-    """
+    
 
     ## EVALUATION
     df_labeled = pd.read_csv(predicted_output_path)
     evaluation(df_labeled)
     
 
-    print(f"✅ Conformance checking results saved to: {output_path}")
+    print(f"✅ Prediction results saved to: {output_path}")
+
 
 
 if __name__ == "__main__":

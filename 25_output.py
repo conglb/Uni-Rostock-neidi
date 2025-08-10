@@ -5,7 +5,7 @@ import os
 
 result_img_path = "./output.png"
 # Import the Petri net from PNML
-net, initial_marking, final_marking = pnml_importer.apply("results/petrinet/06_Sub-Process_SMerged/Return_cart.pnml")
+net, initial_marking, final_marking = pnml_importer.apply("./output_Location_Master.pnml")
 
 # Visualize and save as image
 gviz = pn_visualizer.apply(net, initial_marking, final_marking)
