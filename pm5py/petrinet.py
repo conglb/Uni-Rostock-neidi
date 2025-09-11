@@ -1,7 +1,6 @@
-from pm4py.objects.petri_net.importer import importer as pnml_importer
-from pm4py.visualization.petri_net import visualizer as pn_visualizer
-#from pm4py.simulation.petri_net import simulator as pn_simulator
-import os
+
+
+
 
 def remove_skip_connections(net):
     # Remove nodes (places or transitions) whose name starts with "skip"
@@ -28,20 +27,3 @@ def remove_skip_connections(net):
         if node in net.transitions:
             net.transitions.remove(node)
 
-
-
-
-result_img_path = os.getenv('RESULT_IMG_PATH') or "./output.png"
-# Import the Petri net from PNML
-net, initial_marking, final_marking = pnml_importer.apply("results/high-level-petrinet/Storage.pnml")
-
-#remove_skip_connections(net)
-
-# Visualize and save as image
-parameters = {
-    pn_visualizer.Variants.WO_DECORATION.value.Parameters.DEBUG: True,
-}
-gviz = pn_visualizer.apply(net, initial_marking, final_marking, parameters=parameters)
-# INSERT YOUR OUTPUT PATH HERE
-pn_visualizer.save(gviz, result_img_path)
-print("Petri net visualization saved as petri_net_visualization.png")

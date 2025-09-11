@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
 # Load Petri net
-net, initial_marking, final_marking = pnml_importer.apply("results/high-level-petrinet/Storage.pnml")
+net, initial_marking, final_marking = pnml_importer.apply("results/high-level-petrinet/Retrieval.pnml")
 
 # Convert to networkx graph
 G = nx.DiGraph()
@@ -20,7 +20,9 @@ for arc in net.arcs:
     #target_name = arc.target.label if hasattr(arc.target, 'label') and arc.target.label else arc.target.name
     G.add_edge(arc.source.name, arc.target.name)
 
-#nx.write_graphml(G, "results/high-level-petrinet/Storage.graphml")
+nx.write_graphml(G, "results/high-level-petrinet/Retrieval.graphml")
+
+"""
 print(list(nx.isolates(G)))
 
 sccs = list(nx.strongly_connected_components(G))
@@ -68,3 +70,5 @@ for i, scc in enumerate(sccs):
     plt.title(f"SCC #{i}")
     plt.show()
 
+
+"""
