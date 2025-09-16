@@ -12,6 +12,7 @@ from sklearn.cluster import KMeans
 
 logger = logging.getLogger(__name__)
 
+# PETRINET EVALUATION
 
 def check_fitness_token_replay(xes_file: str, pnml_file: str) -> Dict[str, float]:
     """

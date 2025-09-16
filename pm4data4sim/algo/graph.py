@@ -12,6 +12,30 @@ import json
 
 logger = logging.getLogger(__name__)
 
+def read_graph_from_gml(gml_file: str) -> nx.DiGraph:
+    """
+    Read graph from GML file
+    
+    Args:
+        gml_file: Input GML file path
+    Returns:
+        NetworkX directed graph
+    """
+    G = nx.read_gml(gml_file)
+    logger.info(f"Graph read from {gml_file} with {G.number_of_nodes()} nodes and {G.number_of_edges()} edges")
+    return G
+
+def write_graph_to_gml(G: nx.DiGraph, output_path: str) -> None:
+    """
+    Write graph to GML file
+    
+    Args:
+        G: NetworkX directed graph
+        output_path: Output GML file path
+    """
+    nx.write_gml(G, output_path)
+    logger.info(f"Graph written to {output_path}")
+
 
 def remove_skip_connections(net) -> Any:
     """
