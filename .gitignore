@@ -3,5 +3,6 @@ __pycache__/
 .idea/
 data/
 data_preprocessed/
+preprocessed_data/
 
 *.DS_Stores
