@@ -132,7 +132,6 @@ def visualize_graph_from_pnml(pnml_file: str, output_path: str, show: bool = Fal
     # Convert to networkx graph
     G = nx.DiGraph()
     
-    for place in net.places:
-        G.add_node(place.name, type="place
+    return G
 
 

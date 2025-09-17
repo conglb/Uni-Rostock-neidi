@@ -1,4 +1,7 @@
-__pycache__
-.vscode
-data
-data_preprocessed
+__pycache__/
+.vscode/
+.idea/
+data/
+data_preprocessed/
+
+*.DS_Stores
