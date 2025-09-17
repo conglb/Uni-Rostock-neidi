@@ -1,7 +1,11 @@
-import pm4py4data4sim as pm
+import sys
+sys.path.append('/Users/macbookpro/Projects/Uni-Rostock-neidi')
+import pm4data4sim as pm
 
-data = pm.get_data("/Users/macbookpro/Projects/Uni-Rostock-neidi/data")
-data = pm.convert_csv_to_xes_activity_location(data)
+#data = pm.data_processing.read_csv("/Users/macbookpro/Projects/Uni-Rostock-neidi/data")
+data = pm.convert_csv_to_xes_all_subjects("/Users/macbookpro/Projects/Uni-Rostock-neidi/data", xes_path="all_subjects.xes")
 
-pm.mining.mine_process_inductive(data, output_pnml="output_model.pnml")
+pm.algo.mining.mine_process_inductive(data, output_pnml="output_model.pnml")
+
+pm.visualization.visualize_petri_net()
 
