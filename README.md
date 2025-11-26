@@ -1,5 +1,7 @@
 # Data4Sim
 
+![Flowchart](Flowchart.png)
+
 ## Intro
 This repo contains work in process mining from Data4Sim project. The project is joined between university and company. The data is collected from electrical devices and annotators. The objective is to finding the hidden multi-level processes in the log data.
 
